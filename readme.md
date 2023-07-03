@@ -21,14 +21,15 @@ Xiao Xiao1,2,3, Yan Kong1,2, Ronghan Li1,2, Zuoheng Wang3, Hui Lu2,1,4,*
 
 **Highlights**
 
+- SOTA gene expression prediction model using only one local image
+
+- Perform best on different human organs and can be applied to bulk RNA-seq
+
+- Generate important multimodal biomarker information from cheaper images
+
+- Accurately predicted genes are closely related to cancer immunology
+
 - First vision backbone to integrate CNN, GNN, and transformer for image analysis
-
-- Higher gene expression prediction accuracy without global information
-
-- Accurately predicted genes are related to immune escape and abnormal metabolism
-
-- Predict important biomarkers for breast cancer accurately from cheaper images
-- Can also be applied to bulk RNA-seq, different ST platform, different species
 
 
 

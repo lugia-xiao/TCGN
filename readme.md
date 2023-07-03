@@ -53,7 +53,7 @@ my_model = my_model.cuda()
 # imgs: input batched image tensor on the gpu with shape Batch_size x 3 x 224 x 224
 # if the input img has the same size as the spot in the spatial transcriptomics and is not 224 x 224, then resize the img to 224 x 224
 # img should be 0-1 normalized, then normalized by IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD in the python package timm
-predictions=my_model(imgs)
+predictions=my_model(imgs).detach().cpu()
 # predictions: predicted gene expression tensor with shape Batch_size x 785
 # where 785 is the number of genes the model is set to output
 
@@ -61,6 +61,8 @@ predictions=my_model(imgs)
 # Predict the expression of genes that can be statistically significantly predicted by the model
 selected_genes_number_tensor=torch.Tensor(np.load("data/genes_her2_that_we_think_can_be_predicted.npy")).bool()
 predictions=predictions[:,selected_genes_number_tensor]
+# to numpy form
+predictions=predictions.numpy()
 ```
 
 # System environment

@@ -61,7 +61,7 @@ predictions=my_model(imgs).detach().cpu()
 # Predict the expression of genes that can be statistically significantly predicted by the model
 selected_genes_number_tensor=torch.Tensor(np.load("data/genes_her2_that_we_think_can_be_predicted.npy")).bool()
 predictions=predictions[:,selected_genes_number_tensor]
-# to numpy form
+# to numpy form if needed
 predictions=predictions.numpy()
 ```
 

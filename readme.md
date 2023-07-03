@@ -52,6 +52,7 @@ my_model.load_state_dict(torch.load('./record-TCGN/A2-TCGN-her2-best.pth'), stri
 # use gpu to run the model
 my_model = my_model.cuda()
 # imgs: input batched image tensor on the gpu with shape Batch_size x 3 x 224 x 224
+# if the magnification is 20x then orginal image size should be 112x112, and 56x56 for 10x magnification, then resize them to 224x224
 # if the input img has the same size as the spot in the spatial transcriptomics and is not 224 x 224, then resize the img to 224 x 224
 # img should be 0-1 normalized, then normalized by IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD in the python package timm
 predictions=my_model(imgs).detach().cpu()

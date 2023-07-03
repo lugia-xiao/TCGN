@@ -75,6 +75,7 @@ Required package:
 
 - human HER2-positive breast tumor ST data https://github.com/almaan/her2st/.
 - human cutaneous squamous cell carcinoma 10x Visium data: GSE144240 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144240).
+- SpatialLIBD dataset: http://research.libd.org/spatialLIBD/
 
 
 

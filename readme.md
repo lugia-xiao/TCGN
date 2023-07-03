@@ -42,6 +42,7 @@ As a general computer vision backbone, the TCGN model can be easily used.
 
 ```python
 import torch
+import numpy as np
 from model import TCGN
 
 my_model=TCGN(num_classes=785)# predict 785 genes
@@ -55,6 +56,11 @@ my_model = my_model.cuda()
 predictions=my_model(imgs)
 # predictions: predicted gene expression tensor with shape Batch_size x 785
 # where 785 is the number of genes the model is set to output
+
+# Specific for HER2+ dataset (breast cancer)
+# Predict the expression of genes that can be statistically significantly predicted by the model
+selected_genes_number_tensor=torch.Tensor(np.load("genes_her2_that_we_think_can_be_predicted.npy")).bool()
+predictions=predictions[:,selected_genes_number_tensor]
 ```
 
 # System environment

@@ -19,7 +19,7 @@ torch.cuda.empty_cache() # 清除显卡缓存
 
 def ST_TCGN(test_sample_number):
     batch_size=32
-    epoch=26 if test_sample_number<23 else 36
+    epoch=80
     print("GPU available:", use_gpu)
     # load data
     from timm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD

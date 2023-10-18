@@ -9,6 +9,8 @@ from dataset import pk_load
 
 use_gpu = torch.cuda.is_available() # gpu加速
 #use_gpu=False
+os.environ['CUDA_VISIBLE_DEVICES'] = "0" # 确定显卡
+torch.backends.cudnn.benchmark = True
 torch.cuda.empty_cache() # 清除显卡缓存
 
 class ST_HER2_Dataset(Dataset):

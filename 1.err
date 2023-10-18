@@ -1,0 +1,2 @@
+/lustre/home/acct-clslh/clslh/xiaoxiao/ST/HER2_positive-breast-tumor-ST/all_gnn/real_metric.py:33: RuntimeWarning: invalid value encountered in double_scalars
+  pc = (n * sum_xy - sum_x * sum_y) / np.sqrt((n * sum_x2 - sum_x * sum_x) * (n * sum_y2 - sum_y * sum_y))

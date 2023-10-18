@@ -23,7 +23,8 @@ class BottleNeckBlock(nn.Module):
             layer_scaler_init_value: float = 1e-6,
     ):
         super().__init__()
-        expanded_features = out_features * expansion
+        self.flag=True
+        expanded_features = in_features * expansion
         self.block = nn.Sequential(
             # narrow -> wide (with depth-wise and bigger kernel)
             nn.Conv2d(
@@ -35,10 +36,13 @@ class BottleNeckBlock(nn.Module):
             nn.Conv2d(in_features, expanded_features, kernel_size=1),
             nn.GELU(),
             # wide -> narrow
-            nn.Conv2d(expanded_features, out_features, kernel_size=1),
+            nn.Conv2d(expanded_features, in_features, kernel_size=1),
         )
-        self.layer_scaler = LayerScaler(layer_scaler_init_value, out_features)
+        self.layer_scaler = LayerScaler(layer_scaler_init_value, in_features)
         self.drop_path = StochasticDepth(drop_p, mode="batch")
+        if in_features!=out_features:
+            self.proj=nn.Conv2d(in_features, out_features, kernel_size=1)
+            self.flag=False
 
     def forward(self, x):
         res = x
@@ -46,6 +50,8 @@ class BottleNeckBlock(nn.Module):
         x = self.layer_scaler(x)
         x = self.drop_path(x)
         x += res
+        if self.flag==False:
+            x=self.proj(x)
         return x
 
 
@@ -65,7 +71,28 @@ class ConvNexStage(nn.Sequential):
             ],
         )
 
+def get_size():
+    model=ConvNexStage(46,92,1)
+    #model=models.densenet121()
+    total = sum([param.nelement() for param in model.parameters()])
+    print("Number of parameter: %.2fM" % (total / 1e6))
+
+    param_size = 0
+    param_sum = 0
+    for param in model.parameters():
+        param_size += param.nelement() * param.element_size()
+        param_sum += param.nelement()
+    buffer_size = 0
+    buffer_sum = 0
+    for buffer in model.buffers():
+        buffer_size += buffer.nelement() * buffer.element_size()
+        buffer_sum += buffer.nelement()
+    all_size = (param_size + buffer_size) / 1024 / 1024
+    print('模型总大小为：{:.3f}MB'.format(all_size))
+    print(param_size, param_sum, buffer_size, buffer_sum, all_size)
+
 if __name__=="__main__":
+    get_size()
     model=ConvNexStage(46,92,1).cuda()
     x=torch.randn((2,46,56,56)).cuda()
     out=model(x)

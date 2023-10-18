@@ -87,8 +87,12 @@ def build_edge_feature_tensor(x_input,graph_input,topk):
             print_flag=True
             num_selection+=1
             topk=num_selection/num_nodes
+            '''print(topk,end=" ")'''
             if topk==graph.shape[2]:
                 break
+
+    '''if print_flag:
+        print()'''
 
     # build adjacent matrix
     graph0[graph0 < torch.topk(graph0, dim=-1, k=num_selection)[0][:, num_selection - 1].unsqueeze(-1)] = 0

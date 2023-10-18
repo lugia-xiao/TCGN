@@ -7,7 +7,7 @@ from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 from CMT_block import Block
 
 class MultiHeadAttention(nn.Module):
-    def __init__(self, emb_size: int = 92, num_heads: int = 4, dropout: float = 0.1,add_diag:bool=False):
+    def __init__(self, emb_size: int = 92, num_heads: int = 4, dropout: float = 0,add_diag:bool=False):
         super().__init__()
         self.add_diag=add_diag
         self.emb_size = emb_size
@@ -41,7 +41,7 @@ class MultiHeadAttention(nn.Module):
         return out
 
 
-'''class MultiHeadCrossAttention(nn.Module):
+class MultiHeadCrossAttention(nn.Module):
     def __init__(self,embed_k,embed_q,num_heads,dropout=0.1):
         super().__init__()
         self.emb_size = embed_k
@@ -66,7 +66,7 @@ class MultiHeadAttention(nn.Module):
         # 在第三个轴上求和
         out = torch.einsum('bhal, bhlv -> bhav ', att, values)
         out = rearrange(out, "b h n d -> b n (h d)")
-        return out'''
+        return out
 
 class Multi_head_self_attention_with_graph_output(nn.Module):
     def __init__(self,emb_size=768,num_heads=8,add_diag=False):
@@ -122,6 +122,29 @@ class Multi_head_cross_attention_with_graph_output(nn.Module):
         energy = F.softmax(energy, dim=-1)
         values=self.value_transform(key)
         return values,energy
+
+class Cross_Attention_Transformer(nn.Module):
+    def __init__(self,emb_sizek,emb_sizeq, drop_p=0.1, forward_expansion=4, num_heads=4):
+        super(Cross_Attention_Transformer, self).__init__()
+        emb_size=emb_sizek
+        self.layernormk = nn.LayerNorm(emb_sizek)
+        self.layernormq = nn.LayerNorm(emb_sizeq)
+        self.Attention = MultiHeadCrossAttention(emb_sizek,emb_sizeq, num_heads=num_heads, dropout=drop_p)
+        self.dropout1 = nn.Dropout(drop_p)
+        self.layernorm2 = nn.LayerNorm(emb_size)
+        self.FFN = nn.Sequential(
+            nn.Linear(emb_size, forward_expansion * emb_size),
+            nn.GELU(),
+            nn.Dropout(drop_p),
+            nn.Linear(forward_expansion * emb_size, emb_size),
+        )
+        self.dropout2 = nn.Dropout(drop_p)
+
+    def forward(self,key,query):
+        #print(key.shape,query.shape)
+        key = key + self.dropout1(self.Attention(self.layernormk(key),self.layernormq(query)))
+        key = key + self.dropout2(self.FFN(self.layernorm2(key)))
+        return key
 
 
 class Edge_Node_Transformer_fusion(nn.Module):

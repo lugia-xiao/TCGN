@@ -1,0 +1,1126 @@
+GPU available: True
+test sample: A2
+['A2']
+Loading imgs...
+Loading metadata...
+['A2']
+Loading imgs...
+Loading metadata...
+finish loading
+1
+1
+1
+1
+scale is not 1, is: 2
+1
+1
+Start Training...
+================================================================================2023-07-07 09:50:45
+training: [epoch = 1, step = 20, images = 320] loss: 0.575, median pearson coefficient: -0.002
+training: [epoch = 1, step = 40, images = 640] loss: 0.573, median pearson coefficient: 0.006
+training: [epoch = 1, step = 60, images = 960] loss: 0.566, median pearson coefficient: 0.010
+training: [epoch = 1, step = 80, images = 1280] loss: 0.567, median pearson coefficient: 0.020
+training: [epoch = 1, step = 100, images = 1600] loss: 0.559, median pearson coefficient: 0.022
+training: [epoch = 1, step = 120, images = 1920] loss: 0.550, median pearson coefficient: 0.023
+training: [epoch = 1, step = 140, images = 2240] loss: 0.541, median pearson coefficient: 0.026
+training: [epoch = 1, step = 160, images = 2560] loss: 0.529, median pearson coefficient: 0.023
+training: [epoch = 1, step = 180, images = 2880] loss: 0.520, median pearson coefficient: 0.026
+training: [epoch = 1, step = 200, images = 3200] loss: 0.509, median pearson coefficient: 0.025
+training: [epoch = 1, step = 220, images = 3520] loss: 0.498, median pearson coefficient: 0.023
+training: [epoch = 1, step = 240, images = 3840] loss: 0.488, median pearson coefficient: 0.025
+training: [epoch = 1, step = 260, images = 4160] loss: 0.477, median pearson coefficient: 0.023
+training: [epoch = 1, step = 280, images = 4480] loss: 0.467, median pearson coefficient: 0.021
+training: [epoch = 1, step = 300, images = 4800] loss: 0.459, median pearson coefficient: 0.026
+training: [epoch = 1, step = 320, images = 5120] loss: 0.450, median pearson coefficient: 0.025
+training: [epoch = 1, step = 340, images = 5440] loss: 0.443, median pearson coefficient: 0.027
+training: [epoch = 1, step = 360, images = 5760] loss: 0.435, median pearson coefficient: 0.027
+training: [epoch = 1, step = 380, images = 6080] loss: 0.429, median pearson coefficient: 0.027
+training: [epoch = 1, step = 400, images = 6400] loss: 0.423, median pearson coefficient: 0.029
+training: [epoch = 1, step = 420, images = 6720] loss: 0.418, median pearson coefficient: 0.030
+training: [epoch = 1, step = 440, images = 7040] loss: 0.413, median pearson coefficient: 0.032
+training: [epoch = 1, step = 460, images = 7360] loss: 0.409, median pearson coefficient: 0.034
+training: [epoch = 1, step = 480, images = 7680] loss: 0.404, median pearson coefficient: 0.036
+training: [epoch = 1, step = 500, images = 8000] loss: 0.400, median pearson coefficient: 0.037
+training: [epoch = 1, step = 520, images = 8320] loss: 0.397, median pearson coefficient: 0.039
+training: [epoch = 1, step = 540, images = 8640] loss: 0.393, median pearson coefficient: 0.039
+training: [epoch = 1, step = 560, images = 8960] loss: 0.390, median pearson coefficient: 0.039
+training: [epoch = 1, step = 580, images = 9280] loss: 0.387, median pearson coefficient: 0.041
+training: [epoch = 1, step = 600, images = 9600] loss: 0.385, median pearson coefficient: 0.042
+training: [epoch = 1, step = 620, images = 9920] loss: 0.382, median pearson coefficient: 0.042
+training: [epoch = 1, step = 640, images = 10240] loss: 0.380, median pearson coefficient: 0.043
+training: [epoch = 1, step = 660, images = 10560] loss: 0.378, median pearson coefficient: 0.044
+training: [epoch = 1, step = 680, images = 10880] loss: 0.376, median pearson coefficient: 0.044
+training: [epoch = 1, step = 700, images = 11200] loss: 0.374, median pearson coefficient: 0.045
+validation sample A2
+validation: [step = 10] loss: 0.432, median pearson coefficient: 0.030
+validation sample A2
+validation: [step = 20] loss: 0.431, median pearson coefficient: 0.043
+GNN
+
+EPOCH = 1, loss_train_avg = 0.373, loss_val_avg = 0.431, epoch_median_pcc_train = 0.045, epoch_median_pcc_val = 0.043
+
+================================================================================2023-07-07 13:13:01
+Sample: A2 best epoch now: 1
+training: [epoch = 2, step = 20, images = 320] loss: 0.305, median pearson coefficient: 0.098
+training: [epoch = 2, step = 40, images = 640] loss: 0.305, median pearson coefficient: 0.104
+training: [epoch = 2, step = 60, images = 960] loss: 0.305, median pearson coefficient: 0.108
+training: [epoch = 2, step = 80, images = 1280] loss: 0.304, median pearson coefficient: 0.113
+training: [epoch = 2, step = 100, images = 1600] loss: 0.305, median pearson coefficient: 0.109
+training: [epoch = 2, step = 120, images = 1920] loss: 0.304, median pearson coefficient: 0.112
+training: [epoch = 2, step = 140, images = 2240] loss: 0.305, median pearson coefficient: 0.112
+training: [epoch = 2, step = 160, images = 2560] loss: 0.305, median pearson coefficient: 0.112
+training: [epoch = 2, step = 180, images = 2880] loss: 0.305, median pearson coefficient: 0.112
+training: [epoch = 2, step = 200, images = 3200] loss: 0.305, median pearson coefficient: 0.112
+training: [epoch = 2, step = 220, images = 3520] loss: 0.306, median pearson coefficient: 0.110
+training: [epoch = 2, step = 240, images = 3840] loss: 0.306, median pearson coefficient: 0.113
+training: [epoch = 2, step = 260, images = 4160] loss: 0.305, median pearson coefficient: 0.113
+training: [epoch = 2, step = 280, images = 4480] loss: 0.305, median pearson coefficient: 0.113
+training: [epoch = 2, step = 300, images = 4800] loss: 0.305, median pearson coefficient: 0.113
+training: [epoch = 2, step = 320, images = 5120] loss: 0.305, median pearson coefficient: 0.114
+training: [epoch = 2, step = 340, images = 5440] loss: 0.305, median pearson coefficient: 0.115
+training: [epoch = 2, step = 360, images = 5760] loss: 0.305, median pearson coefficient: 0.115
+training: [epoch = 2, step = 380, images = 6080] loss: 0.305, median pearson coefficient: 0.115
+training: [epoch = 2, step = 400, images = 6400] loss: 0.305, median pearson coefficient: 0.118
+training: [epoch = 2, step = 420, images = 6720] loss: 0.305, median pearson coefficient: 0.118
+training: [epoch = 2, step = 440, images = 7040] loss: 0.305, median pearson coefficient: 0.119
+training: [epoch = 2, step = 460, images = 7360] loss: 0.305, median pearson coefficient: 0.121
+training: [epoch = 2, step = 480, images = 7680] loss: 0.305, median pearson coefficient: 0.120
+training: [epoch = 2, step = 500, images = 8000] loss: 0.305, median pearson coefficient: 0.121
+training: [epoch = 2, step = 520, images = 8320] loss: 0.305, median pearson coefficient: 0.120
+training: [epoch = 2, step = 540, images = 8640] loss: 0.305, median pearson coefficient: 0.120
+training: [epoch = 2, step = 560, images = 8960] loss: 0.305, median pearson coefficient: 0.121
+training: [epoch = 2, step = 580, images = 9280] loss: 0.304, median pearson coefficient: 0.123
+training: [epoch = 2, step = 600, images = 9600] loss: 0.304, median pearson coefficient: 0.123
+training: [epoch = 2, step = 620, images = 9920] loss: 0.304, median pearson coefficient: 0.123
+training: [epoch = 2, step = 640, images = 10240] loss: 0.304, median pearson coefficient: 0.124
+training: [epoch = 2, step = 660, images = 10560] loss: 0.304, median pearson coefficient: 0.123
+training: [epoch = 2, step = 680, images = 10880] loss: 0.304, median pearson coefficient: 0.124
+training: [epoch = 2, step = 700, images = 11200] loss: 0.304, median pearson coefficient: 0.124
+validation sample A2
+validation: [step = 10] loss: 0.428, median pearson coefficient: 0.045
+validation sample A2
+validation: [step = 20] loss: 0.428, median pearson coefficient: 0.041
+GNN
+
+EPOCH = 2, loss_train_avg = 0.304, loss_val_avg = 0.428, epoch_median_pcc_train = 0.124, epoch_median_pcc_val = 0.041
+
+================================================================================2023-07-07 16:23:02
+training: [epoch = 3, step = 20, images = 320] loss: 0.305, median pearson coefficient: 0.153
+training: [epoch = 3, step = 40, images = 640] loss: 0.303, median pearson coefficient: 0.143
+training: [epoch = 3, step = 60, images = 960] loss: 0.299, median pearson coefficient: 0.139
+training: [epoch = 3, step = 80, images = 1280] loss: 0.301, median pearson coefficient: 0.138
+training: [epoch = 3, step = 100, images = 1600] loss: 0.299, median pearson coefficient: 0.143
+training: [epoch = 3, step = 120, images = 1920] loss: 0.300, median pearson coefficient: 0.142
+training: [epoch = 3, step = 140, images = 2240] loss: 0.300, median pearson coefficient: 0.142
+training: [epoch = 3, step = 160, images = 2560] loss: 0.301, median pearson coefficient: 0.142
+training: [epoch = 3, step = 180, images = 2880] loss: 0.301, median pearson coefficient: 0.143
+training: [epoch = 3, step = 200, images = 3200] loss: 0.301, median pearson coefficient: 0.144
+training: [epoch = 3, step = 220, images = 3520] loss: 0.301, median pearson coefficient: 0.143
+training: [epoch = 3, step = 240, images = 3840] loss: 0.302, median pearson coefficient: 0.141
+training: [epoch = 3, step = 260, images = 4160] loss: 0.302, median pearson coefficient: 0.142
+training: [epoch = 3, step = 280, images = 4480] loss: 0.302, median pearson coefficient: 0.143
+training: [epoch = 3, step = 300, images = 4800] loss: 0.302, median pearson coefficient: 0.142
+training: [epoch = 3, step = 320, images = 5120] loss: 0.302, median pearson coefficient: 0.141
+training: [epoch = 3, step = 340, images = 5440] loss: 0.302, median pearson coefficient: 0.142
+training: [epoch = 3, step = 360, images = 5760] loss: 0.302, median pearson coefficient: 0.143
+training: [epoch = 3, step = 380, images = 6080] loss: 0.302, median pearson coefficient: 0.141
+training: [epoch = 3, step = 400, images = 6400] loss: 0.301, median pearson coefficient: 0.140
+training: [epoch = 3, step = 420, images = 6720] loss: 0.301, median pearson coefficient: 0.141
+training: [epoch = 3, step = 440, images = 7040] loss: 0.301, median pearson coefficient: 0.142
+training: [epoch = 3, step = 460, images = 7360] loss: 0.301, median pearson coefficient: 0.142
+training: [epoch = 3, step = 480, images = 7680] loss: 0.301, median pearson coefficient: 0.144
+training: [epoch = 3, step = 500, images = 8000] loss: 0.301, median pearson coefficient: 0.144
+training: [epoch = 3, step = 520, images = 8320] loss: 0.301, median pearson coefficient: 0.144
+training: [epoch = 3, step = 540, images = 8640] loss: 0.301, median pearson coefficient: 0.144
+training: [epoch = 3, step = 560, images = 8960] loss: 0.301, median pearson coefficient: 0.143
+training: [epoch = 3, step = 580, images = 9280] loss: 0.301, median pearson coefficient: 0.145
+training: [epoch = 3, step = 600, images = 9600] loss: 0.301, median pearson coefficient: 0.144
+training: [epoch = 3, step = 620, images = 9920] loss: 0.301, median pearson coefficient: 0.145
+training: [epoch = 3, step = 640, images = 10240] loss: 0.301, median pearson coefficient: 0.145
+training: [epoch = 3, step = 660, images = 10560] loss: 0.301, median pearson coefficient: 0.145
+training: [epoch = 3, step = 680, images = 10880] loss: 0.301, median pearson coefficient: 0.146
+training: [epoch = 3, step = 700, images = 11200] loss: 0.300, median pearson coefficient: 0.146
+validation sample A2
+validation: [step = 10] loss: 0.415, median pearson coefficient: 0.066
+validation sample A2
+validation: [step = 20] loss: 0.415, median pearson coefficient: 0.053
+GNN
+
+EPOCH = 3, loss_train_avg = 0.301, loss_val_avg = 0.415, epoch_median_pcc_train = 0.146, epoch_median_pcc_val = 0.053
+
+================================================================================2023-07-07 19:28:56
+Sample: A2 best epoch now: 3
+training: [epoch = 4, step = 20, images = 320] loss: 0.301, median pearson coefficient: 0.178
+training: [epoch = 4, step = 40, images = 640] loss: 0.300, median pearson coefficient: 0.165
+training: [epoch = 4, step = 60, images = 960] loss: 0.300, median pearson coefficient: 0.164
+training: [epoch = 4, step = 80, images = 1280] loss: 0.297, median pearson coefficient: 0.160
+training: [epoch = 4, step = 100, images = 1600] loss: 0.298, median pearson coefficient: 0.160
+training: [epoch = 4, step = 120, images = 1920] loss: 0.298, median pearson coefficient: 0.160
+training: [epoch = 4, step = 140, images = 2240] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 160, images = 2560] loss: 0.297, median pearson coefficient: 0.159
+training: [epoch = 4, step = 180, images = 2880] loss: 0.298, median pearson coefficient: 0.158
+training: [epoch = 4, step = 200, images = 3200] loss: 0.298, median pearson coefficient: 0.156
+training: [epoch = 4, step = 220, images = 3520] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 240, images = 3840] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 260, images = 4160] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 280, images = 4480] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 300, images = 4800] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 320, images = 5120] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 340, images = 5440] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 360, images = 5760] loss: 0.298, median pearson coefficient: 0.160
+training: [epoch = 4, step = 380, images = 6080] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 400, images = 6400] loss: 0.298, median pearson coefficient: 0.159
+training: [epoch = 4, step = 420, images = 6720] loss: 0.298, median pearson coefficient: 0.160
+training: [epoch = 4, step = 440, images = 7040] loss: 0.298, median pearson coefficient: 0.160
+training: [epoch = 4, step = 460, images = 7360] loss: 0.298, median pearson coefficient: 0.161
+training: [epoch = 4, step = 480, images = 7680] loss: 0.298, median pearson coefficient: 0.162
+training: [epoch = 4, step = 500, images = 8000] loss: 0.298, median pearson coefficient: 0.161
+training: [epoch = 4, step = 520, images = 8320] loss: 0.298, median pearson coefficient: 0.162
+training: [epoch = 4, step = 540, images = 8640] loss: 0.298, median pearson coefficient: 0.162
+training: [epoch = 4, step = 560, images = 8960] loss: 0.298, median pearson coefficient: 0.162
+training: [epoch = 4, step = 580, images = 9280] loss: 0.298, median pearson coefficient: 0.161
+training: [epoch = 4, step = 600, images = 9600] loss: 0.298, median pearson coefficient: 0.161
+training: [epoch = 4, step = 620, images = 9920] loss: 0.298, median pearson coefficient: 0.161
+training: [epoch = 4, step = 640, images = 10240] loss: 0.298, median pearson coefficient: 0.162
+training: [epoch = 4, step = 660, images = 10560] loss: 0.298, median pearson coefficient: 0.162
+training: [epoch = 4, step = 680, images = 10880] loss: 0.298, median pearson coefficient: 0.162
+training: [epoch = 4, step = 700, images = 11200] loss: 0.298, median pearson coefficient: 0.162
+validation sample A2
+validation: [step = 10] loss: 0.404, median pearson coefficient: 0.061
+validation sample A2
+validation: [step = 20] loss: 0.403, median pearson coefficient: 0.049
+GNN
+
+EPOCH = 4, loss_train_avg = 0.298, loss_val_avg = 0.403, epoch_median_pcc_train = 0.162, epoch_median_pcc_val = 0.049
+
+================================================================================2023-07-07 22:47:08
+training: [epoch = 5, step = 20, images = 320] loss: 0.299, median pearson coefficient: 0.167
+training: [epoch = 5, step = 40, images = 640] loss: 0.295, median pearson coefficient: 0.169
+training: [epoch = 5, step = 60, images = 960] loss: 0.295, median pearson coefficient: 0.171
+training: [epoch = 5, step = 80, images = 1280] loss: 0.296, median pearson coefficient: 0.172
+training: [epoch = 5, step = 100, images = 1600] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 120, images = 1920] loss: 0.297, median pearson coefficient: 0.168
+training: [epoch = 5, step = 140, images = 2240] loss: 0.297, median pearson coefficient: 0.167
+training: [epoch = 5, step = 160, images = 2560] loss: 0.297, median pearson coefficient: 0.169
+training: [epoch = 5, step = 180, images = 2880] loss: 0.296, median pearson coefficient: 0.169
+training: [epoch = 5, step = 200, images = 3200] loss: 0.296, median pearson coefficient: 0.170
+training: [epoch = 5, step = 220, images = 3520] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 240, images = 3840] loss: 0.297, median pearson coefficient: 0.170
+training: [epoch = 5, step = 260, images = 4160] loss: 0.297, median pearson coefficient: 0.171
+training: [epoch = 5, step = 280, images = 4480] loss: 0.297, median pearson coefficient: 0.169
+training: [epoch = 5, step = 300, images = 4800] loss: 0.297, median pearson coefficient: 0.169
+training: [epoch = 5, step = 320, images = 5120] loss: 0.297, median pearson coefficient: 0.171
+training: [epoch = 5, step = 340, images = 5440] loss: 0.297, median pearson coefficient: 0.170
+training: [epoch = 5, step = 360, images = 5760] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 380, images = 6080] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 400, images = 6400] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 420, images = 6720] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 440, images = 7040] loss: 0.296, median pearson coefficient: 0.172
+training: [epoch = 5, step = 460, images = 7360] loss: 0.296, median pearson coefficient: 0.172
+training: [epoch = 5, step = 480, images = 7680] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 500, images = 8000] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 520, images = 8320] loss: 0.296, median pearson coefficient: 0.171
+training: [epoch = 5, step = 540, images = 8640] loss: 0.296, median pearson coefficient: 0.174
+training: [epoch = 5, step = 560, images = 8960] loss: 0.296, median pearson coefficient: 0.174
+training: [epoch = 5, step = 580, images = 9280] loss: 0.295, median pearson coefficient: 0.174
+training: [epoch = 5, step = 600, images = 9600] loss: 0.295, median pearson coefficient: 0.173
+training: [epoch = 5, step = 620, images = 9920] loss: 0.295, median pearson coefficient: 0.175
+training: [epoch = 5, step = 640, images = 10240] loss: 0.295, median pearson coefficient: 0.174
+training: [epoch = 5, step = 660, images = 10560] loss: 0.295, median pearson coefficient: 0.175
+training: [epoch = 5, step = 680, images = 10880] loss: 0.295, median pearson coefficient: 0.175
+training: [epoch = 5, step = 700, images = 11200] loss: 0.295, median pearson coefficient: 0.175
+validation sample A2
+validation: [step = 10] loss: 0.393, median pearson coefficient: 0.061
+validation sample A2
+validation: [step = 20] loss: 0.391, median pearson coefficient: 0.056
+GNN
+
+EPOCH = 5, loss_train_avg = 0.295, loss_val_avg = 0.391, epoch_median_pcc_train = 0.175, epoch_median_pcc_val = 0.056
+
+================================================================================2023-07-08 02:52:19
+Sample: A2 best epoch now: 5
+training: [epoch = 6, step = 20, images = 320] loss: 0.292, median pearson coefficient: 0.182
+training: [epoch = 6, step = 40, images = 640] loss: 0.294, median pearson coefficient: 0.181
+training: [epoch = 6, step = 60, images = 960] loss: 0.293, median pearson coefficient: 0.184
+training: [epoch = 6, step = 80, images = 1280] loss: 0.292, median pearson coefficient: 0.180
+training: [epoch = 6, step = 100, images = 1600] loss: 0.292, median pearson coefficient: 0.180
+training: [epoch = 6, step = 120, images = 1920] loss: 0.292, median pearson coefficient: 0.184
+training: [epoch = 6, step = 140, images = 2240] loss: 0.293, median pearson coefficient: 0.182
+training: [epoch = 6, step = 160, images = 2560] loss: 0.292, median pearson coefficient: 0.183
+training: [epoch = 6, step = 180, images = 2880] loss: 0.292, median pearson coefficient: 0.184
+training: [epoch = 6, step = 200, images = 3200] loss: 0.292, median pearson coefficient: 0.184
+training: [epoch = 6, step = 220, images = 3520] loss: 0.292, median pearson coefficient: 0.183
+training: [epoch = 6, step = 240, images = 3840] loss: 0.292, median pearson coefficient: 0.183
+training: [epoch = 6, step = 260, images = 4160] loss: 0.293, median pearson coefficient: 0.180
+training: [epoch = 6, step = 280, images = 4480] loss: 0.293, median pearson coefficient: 0.180
+training: [epoch = 6, step = 300, images = 4800] loss: 0.293, median pearson coefficient: 0.180
+training: [epoch = 6, step = 320, images = 5120] loss: 0.292, median pearson coefficient: 0.181
+training: [epoch = 6, step = 340, images = 5440] loss: 0.292, median pearson coefficient: 0.179
+training: [epoch = 6, step = 360, images = 5760] loss: 0.292, median pearson coefficient: 0.179
+training: [epoch = 6, step = 380, images = 6080] loss: 0.292, median pearson coefficient: 0.180
+training: [epoch = 6, step = 400, images = 6400] loss: 0.292, median pearson coefficient: 0.182
+training: [epoch = 6, step = 420, images = 6720] loss: 0.292, median pearson coefficient: 0.182
+training: [epoch = 6, step = 440, images = 7040] loss: 0.292, median pearson coefficient: 0.184
+training: [epoch = 6, step = 460, images = 7360] loss: 0.292, median pearson coefficient: 0.184
+training: [epoch = 6, step = 480, images = 7680] loss: 0.293, median pearson coefficient: 0.184
+training: [epoch = 6, step = 500, images = 8000] loss: 0.293, median pearson coefficient: 0.185
+training: [epoch = 6, step = 520, images = 8320] loss: 0.293, median pearson coefficient: 0.185
+training: [epoch = 6, step = 540, images = 8640] loss: 0.293, median pearson coefficient: 0.185
+training: [epoch = 6, step = 560, images = 8960] loss: 0.293, median pearson coefficient: 0.185
+training: [epoch = 6, step = 580, images = 9280] loss: 0.293, median pearson coefficient: 0.184
+training: [epoch = 6, step = 600, images = 9600] loss: 0.293, median pearson coefficient: 0.184
+training: [epoch = 6, step = 620, images = 9920] loss: 0.293, median pearson coefficient: 0.184
+training: [epoch = 6, step = 640, images = 10240] loss: 0.292, median pearson coefficient: 0.184
+training: [epoch = 6, step = 660, images = 10560] loss: 0.293, median pearson coefficient: 0.183
+training: [epoch = 6, step = 680, images = 10880] loss: 0.293, median pearson coefficient: 0.183
+training: [epoch = 6, step = 700, images = 11200] loss: 0.293, median pearson coefficient: 0.184
+validation sample A2
+validation: [step = 10] loss: 0.377, median pearson coefficient: 0.066
+validation sample A2
+validation: [step = 20] loss: 0.381, median pearson coefficient: 0.059
+GNN
+
+EPOCH = 6, loss_train_avg = 0.293, loss_val_avg = 0.381, epoch_median_pcc_train = 0.184, epoch_median_pcc_val = 0.059
+
+================================================================================2023-07-08 05:59:44
+Sample: A2 best epoch now: 6
+training: [epoch = 7, step = 20, images = 320] loss: 0.292, median pearson coefficient: 0.192
+training: [epoch = 7, step = 40, images = 640] loss: 0.295, median pearson coefficient: 0.183
+training: [epoch = 7, step = 60, images = 960] loss: 0.295, median pearson coefficient: 0.186
+training: [epoch = 7, step = 80, images = 1280] loss: 0.293, median pearson coefficient: 0.195
+training: [epoch = 7, step = 100, images = 1600] loss: 0.292, median pearson coefficient: 0.193
+training: [epoch = 7, step = 120, images = 1920] loss: 0.291, median pearson coefficient: 0.193
+training: [epoch = 7, step = 140, images = 2240] loss: 0.292, median pearson coefficient: 0.192
+training: [epoch = 7, step = 160, images = 2560] loss: 0.291, median pearson coefficient: 0.194
+training: [epoch = 7, step = 180, images = 2880] loss: 0.291, median pearson coefficient: 0.195
+training: [epoch = 7, step = 200, images = 3200] loss: 0.291, median pearson coefficient: 0.195
+training: [epoch = 7, step = 220, images = 3520] loss: 0.292, median pearson coefficient: 0.193
+training: [epoch = 7, step = 240, images = 3840] loss: 0.292, median pearson coefficient: 0.193
+training: [epoch = 7, step = 260, images = 4160] loss: 0.292, median pearson coefficient: 0.191
+training: [epoch = 7, step = 280, images = 4480] loss: 0.292, median pearson coefficient: 0.192
+training: [epoch = 7, step = 300, images = 4800] loss: 0.292, median pearson coefficient: 0.191
+training: [epoch = 7, step = 320, images = 5120] loss: 0.292, median pearson coefficient: 0.192
+training: [epoch = 7, step = 340, images = 5440] loss: 0.292, median pearson coefficient: 0.191
+training: [epoch = 7, step = 360, images = 5760] loss: 0.291, median pearson coefficient: 0.193
+training: [epoch = 7, step = 380, images = 6080] loss: 0.291, median pearson coefficient: 0.193
+training: [epoch = 7, step = 400, images = 6400] loss: 0.291, median pearson coefficient: 0.192
+training: [epoch = 7, step = 420, images = 6720] loss: 0.291, median pearson coefficient: 0.193
+training: [epoch = 7, step = 440, images = 7040] loss: 0.291, median pearson coefficient: 0.192
+training: [epoch = 7, step = 460, images = 7360] loss: 0.291, median pearson coefficient: 0.192
+training: [epoch = 7, step = 480, images = 7680] loss: 0.290, median pearson coefficient: 0.193
+training: [epoch = 7, step = 500, images = 8000] loss: 0.290, median pearson coefficient: 0.193
+training: [epoch = 7, step = 520, images = 8320] loss: 0.290, median pearson coefficient: 0.193
+training: [epoch = 7, step = 540, images = 8640] loss: 0.290, median pearson coefficient: 0.194
+training: [epoch = 7, step = 560, images = 8960] loss: 0.290, median pearson coefficient: 0.194
+training: [epoch = 7, step = 580, images = 9280] loss: 0.291, median pearson coefficient: 0.194
+training: [epoch = 7, step = 600, images = 9600] loss: 0.291, median pearson coefficient: 0.193
+training: [epoch = 7, step = 620, images = 9920] loss: 0.291, median pearson coefficient: 0.192
+training: [epoch = 7, step = 640, images = 10240] loss: 0.291, median pearson coefficient: 0.192
+training: [epoch = 7, step = 660, images = 10560] loss: 0.291, median pearson coefficient: 0.191
+training: [epoch = 7, step = 680, images = 10880] loss: 0.291, median pearson coefficient: 0.192
+training: [epoch = 7, step = 700, images = 11200] loss: 0.291, median pearson coefficient: 0.192
+validation sample A2
+validation: [step = 10] loss: 0.366, median pearson coefficient: 0.074
+validation sample A2
+validation: [step = 20] loss: 0.367, median pearson coefficient: 0.067
+GNN
+
+EPOCH = 7, loss_train_avg = 0.291, loss_val_avg = 0.367, epoch_median_pcc_train = 0.192, epoch_median_pcc_val = 0.067
+
+================================================================================2023-07-08 09:08:27
+Sample: A2 best epoch now: 7
+training: [epoch = 8, step = 20, images = 320] loss: 0.290, median pearson coefficient: 0.191
+training: [epoch = 8, step = 40, images = 640] loss: 0.291, median pearson coefficient: 0.177
+training: [epoch = 8, step = 60, images = 960] loss: 0.291, median pearson coefficient: 0.181
+training: [epoch = 8, step = 80, images = 1280] loss: 0.291, median pearson coefficient: 0.186
+training: [epoch = 8, step = 100, images = 1600] loss: 0.291, median pearson coefficient: 0.187
+training: [epoch = 8, step = 120, images = 1920] loss: 0.291, median pearson coefficient: 0.188
+training: [epoch = 8, step = 140, images = 2240] loss: 0.291, median pearson coefficient: 0.191
+training: [epoch = 8, step = 160, images = 2560] loss: 0.290, median pearson coefficient: 0.193
+training: [epoch = 8, step = 180, images = 2880] loss: 0.289, median pearson coefficient: 0.196
+training: [epoch = 8, step = 200, images = 3200] loss: 0.288, median pearson coefficient: 0.197
+training: [epoch = 8, step = 220, images = 3520] loss: 0.288, median pearson coefficient: 0.196
+training: [epoch = 8, step = 240, images = 3840] loss: 0.288, median pearson coefficient: 0.199
+training: [epoch = 8, step = 260, images = 4160] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 280, images = 4480] loss: 0.289, median pearson coefficient: 0.199
+training: [epoch = 8, step = 300, images = 4800] loss: 0.289, median pearson coefficient: 0.199
+training: [epoch = 8, step = 320, images = 5120] loss: 0.289, median pearson coefficient: 0.199
+training: [epoch = 8, step = 340, images = 5440] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 360, images = 5760] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 380, images = 6080] loss: 0.289, median pearson coefficient: 0.200
+training: [epoch = 8, step = 400, images = 6400] loss: 0.289, median pearson coefficient: 0.199
+training: [epoch = 8, step = 420, images = 6720] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 440, images = 7040] loss: 0.289, median pearson coefficient: 0.196
+training: [epoch = 8, step = 460, images = 7360] loss: 0.289, median pearson coefficient: 0.197
+training: [epoch = 8, step = 480, images = 7680] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 500, images = 8000] loss: 0.289, median pearson coefficient: 0.199
+training: [epoch = 8, step = 520, images = 8320] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 540, images = 8640] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 560, images = 8960] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 580, images = 9280] loss: 0.289, median pearson coefficient: 0.197
+training: [epoch = 8, step = 600, images = 9600] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 620, images = 9920] loss: 0.289, median pearson coefficient: 0.198
+training: [epoch = 8, step = 640, images = 10240] loss: 0.289, median pearson coefficient: 0.199
+training: [epoch = 8, step = 660, images = 10560] loss: 0.289, median pearson coefficient: 0.199
+training: [epoch = 8, step = 680, images = 10880] loss: 0.289, median pearson coefficient: 0.199
+training: [epoch = 8, step = 700, images = 11200] loss: 0.289, median pearson coefficient: 0.199
+validation sample A2
+validation: [step = 10] loss: 0.363, median pearson coefficient: 0.060
+validation sample A2
+validation: [step = 20] loss: 0.360, median pearson coefficient: 0.069
+GNN
+
+EPOCH = 8, loss_train_avg = 0.289, loss_val_avg = 0.360, epoch_median_pcc_train = 0.199, epoch_median_pcc_val = 0.069
+
+================================================================================2023-07-08 12:13:00
+Sample: A2 best epoch now: 8
+training: [epoch = 9, step = 20, images = 320] loss: 0.290, median pearson coefficient: 0.220
+training: [epoch = 9, step = 40, images = 640] loss: 0.289, median pearson coefficient: 0.215
+training: [epoch = 9, step = 60, images = 960] loss: 0.287, median pearson coefficient: 0.213
+training: [epoch = 9, step = 80, images = 1280] loss: 0.288, median pearson coefficient: 0.211
+training: [epoch = 9, step = 100, images = 1600] loss: 0.288, median pearson coefficient: 0.210
+training: [epoch = 9, step = 120, images = 1920] loss: 0.288, median pearson coefficient: 0.208
+training: [epoch = 9, step = 140, images = 2240] loss: 0.288, median pearson coefficient: 0.208
+training: [epoch = 9, step = 160, images = 2560] loss: 0.289, median pearson coefficient: 0.207
+training: [epoch = 9, step = 180, images = 2880] loss: 0.289, median pearson coefficient: 0.205
+training: [epoch = 9, step = 200, images = 3200] loss: 0.289, median pearson coefficient: 0.206
+training: [epoch = 9, step = 220, images = 3520] loss: 0.289, median pearson coefficient: 0.205
+training: [epoch = 9, step = 240, images = 3840] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 260, images = 4160] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 280, images = 4480] loss: 0.288, median pearson coefficient: 0.204
+training: [epoch = 9, step = 300, images = 4800] loss: 0.288, median pearson coefficient: 0.202
+training: [epoch = 9, step = 320, images = 5120] loss: 0.288, median pearson coefficient: 0.204
+training: [epoch = 9, step = 340, images = 5440] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 360, images = 5760] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 380, images = 6080] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 400, images = 6400] loss: 0.288, median pearson coefficient: 0.204
+training: [epoch = 9, step = 420, images = 6720] loss: 0.288, median pearson coefficient: 0.204
+training: [epoch = 9, step = 440, images = 7040] loss: 0.288, median pearson coefficient: 0.204
+training: [epoch = 9, step = 460, images = 7360] loss: 0.287, median pearson coefficient: 0.204
+training: [epoch = 9, step = 480, images = 7680] loss: 0.287, median pearson coefficient: 0.203
+training: [epoch = 9, step = 500, images = 8000] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 520, images = 8320] loss: 0.288, median pearson coefficient: 0.202
+training: [epoch = 9, step = 540, images = 8640] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 560, images = 8960] loss: 0.288, median pearson coefficient: 0.202
+training: [epoch = 9, step = 580, images = 9280] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 600, images = 9600] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 620, images = 9920] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 640, images = 10240] loss: 0.288, median pearson coefficient: 0.202
+training: [epoch = 9, step = 660, images = 10560] loss: 0.288, median pearson coefficient: 0.203
+training: [epoch = 9, step = 680, images = 10880] loss: 0.287, median pearson coefficient: 0.203
+training: [epoch = 9, step = 700, images = 11200] loss: 0.288, median pearson coefficient: 0.203
+validation sample A2
+validation: [step = 10] loss: 0.361, median pearson coefficient: 0.065
+validation sample A2
+validation: [step = 20] loss: 0.360, median pearson coefficient: 0.062
+GNN
+
+EPOCH = 9, loss_train_avg = 0.288, loss_val_avg = 0.360, epoch_median_pcc_train = 0.203, epoch_median_pcc_val = 0.062
+
+================================================================================2023-07-08 15:06:03
+training: [epoch = 10, step = 20, images = 320] loss: 0.289, median pearson coefficient: 0.210
+training: [epoch = 10, step = 40, images = 640] loss: 0.287, median pearson coefficient: 0.204
+training: [epoch = 10, step = 60, images = 960] loss: 0.287, median pearson coefficient: 0.206
+training: [epoch = 10, step = 80, images = 1280] loss: 0.287, median pearson coefficient: 0.204
+training: [epoch = 10, step = 100, images = 1600] loss: 0.288, median pearson coefficient: 0.205
+training: [epoch = 10, step = 120, images = 1920] loss: 0.287, median pearson coefficient: 0.206
+training: [epoch = 10, step = 140, images = 2240] loss: 0.287, median pearson coefficient: 0.204
+training: [epoch = 10, step = 160, images = 2560] loss: 0.286, median pearson coefficient: 0.206
+training: [epoch = 10, step = 180, images = 2880] loss: 0.287, median pearson coefficient: 0.203
+training: [epoch = 10, step = 200, images = 3200] loss: 0.287, median pearson coefficient: 0.204
+training: [epoch = 10, step = 220, images = 3520] loss: 0.287, median pearson coefficient: 0.205
+training: [epoch = 10, step = 240, images = 3840] loss: 0.286, median pearson coefficient: 0.207
+training: [epoch = 10, step = 260, images = 4160] loss: 0.287, median pearson coefficient: 0.206
+training: [epoch = 10, step = 280, images = 4480] loss: 0.287, median pearson coefficient: 0.203
+training: [epoch = 10, step = 300, images = 4800] loss: 0.287, median pearson coefficient: 0.203
+training: [epoch = 10, step = 320, images = 5120] loss: 0.287, median pearson coefficient: 0.205
+training: [epoch = 10, step = 340, images = 5440] loss: 0.287, median pearson coefficient: 0.205
+training: [epoch = 10, step = 360, images = 5760] loss: 0.286, median pearson coefficient: 0.205
+training: [epoch = 10, step = 380, images = 6080] loss: 0.286, median pearson coefficient: 0.205
+training: [epoch = 10, step = 400, images = 6400] loss: 0.286, median pearson coefficient: 0.206
+training: [epoch = 10, step = 420, images = 6720] loss: 0.287, median pearson coefficient: 0.206
+training: [epoch = 10, step = 440, images = 7040] loss: 0.287, median pearson coefficient: 0.205
+training: [epoch = 10, step = 460, images = 7360] loss: 0.287, median pearson coefficient: 0.205
+training: [epoch = 10, step = 480, images = 7680] loss: 0.287, median pearson coefficient: 0.204
+training: [epoch = 10, step = 500, images = 8000] loss: 0.287, median pearson coefficient: 0.204
+training: [epoch = 10, step = 520, images = 8320] loss: 0.286, median pearson coefficient: 0.205
+training: [epoch = 10, step = 540, images = 8640] loss: 0.286, median pearson coefficient: 0.205
+training: [epoch = 10, step = 560, images = 8960] loss: 0.286, median pearson coefficient: 0.206
+training: [epoch = 10, step = 580, images = 9280] loss: 0.286, median pearson coefficient: 0.206
+training: [epoch = 10, step = 600, images = 9600] loss: 0.286, median pearson coefficient: 0.205
+training: [epoch = 10, step = 620, images = 9920] loss: 0.286, median pearson coefficient: 0.206
+training: [epoch = 10, step = 640, images = 10240] loss: 0.286, median pearson coefficient: 0.206
+training: [epoch = 10, step = 660, images = 10560] loss: 0.287, median pearson coefficient: 0.206
+training: [epoch = 10, step = 680, images = 10880] loss: 0.286, median pearson coefficient: 0.206
+training: [epoch = 10, step = 700, images = 11200] loss: 0.286, median pearson coefficient: 0.206
+validation sample A2
+validation: [step = 10] loss: 0.366, median pearson coefficient: 0.073
+validation sample A2
+validation: [step = 20] loss: 0.364, median pearson coefficient: 0.068
+GNN
+
+EPOCH = 10, loss_train_avg = 0.286, loss_val_avg = 0.364, epoch_median_pcc_train = 0.206, epoch_median_pcc_val = 0.068
+
+================================================================================2023-07-08 18:03:18
+training: [epoch = 11, step = 20, images = 320] loss: 0.286, median pearson coefficient: 0.223
+training: [epoch = 11, step = 40, images = 640] loss: 0.286, median pearson coefficient: 0.214
+training: [epoch = 11, step = 60, images = 960] loss: 0.285, median pearson coefficient: 0.213
+training: [epoch = 11, step = 80, images = 1280] loss: 0.285, median pearson coefficient: 0.211
+training: [epoch = 11, step = 100, images = 1600] loss: 0.287, median pearson coefficient: 0.212
+training: [epoch = 11, step = 120, images = 1920] loss: 0.286, median pearson coefficient: 0.210
+training: [epoch = 11, step = 140, images = 2240] loss: 0.287, median pearson coefficient: 0.209
+training: [epoch = 11, step = 160, images = 2560] loss: 0.287, median pearson coefficient: 0.206
+training: [epoch = 11, step = 180, images = 2880] loss: 0.287, median pearson coefficient: 0.206
+training: [epoch = 11, step = 200, images = 3200] loss: 0.286, median pearson coefficient: 0.208
+training: [epoch = 11, step = 220, images = 3520] loss: 0.286, median pearson coefficient: 0.207
+training: [epoch = 11, step = 240, images = 3840] loss: 0.286, median pearson coefficient: 0.207
+training: [epoch = 11, step = 260, images = 4160] loss: 0.286, median pearson coefficient: 0.205
+training: [epoch = 11, step = 280, images = 4480] loss: 0.286, median pearson coefficient: 0.206
+training: [epoch = 11, step = 300, images = 4800] loss: 0.287, median pearson coefficient: 0.205
+training: [epoch = 11, step = 320, images = 5120] loss: 0.287, median pearson coefficient: 0.206
+training: [epoch = 11, step = 340, images = 5440] loss: 0.286, median pearson coefficient: 0.207
+training: [epoch = 11, step = 360, images = 5760] loss: 0.286, median pearson coefficient: 0.208
+training: [epoch = 11, step = 380, images = 6080] loss: 0.286, median pearson coefficient: 0.207
+training: [epoch = 11, step = 400, images = 6400] loss: 0.286, median pearson coefficient: 0.208
+training: [epoch = 11, step = 420, images = 6720] loss: 0.286, median pearson coefficient: 0.209
+training: [epoch = 11, step = 440, images = 7040] loss: 0.286, median pearson coefficient: 0.210
+training: [epoch = 11, step = 460, images = 7360] loss: 0.286, median pearson coefficient: 0.209
+training: [epoch = 11, step = 480, images = 7680] loss: 0.286, median pearson coefficient: 0.209
+training: [epoch = 11, step = 500, images = 8000] loss: 0.286, median pearson coefficient: 0.209
+training: [epoch = 11, step = 520, images = 8320] loss: 0.286, median pearson coefficient: 0.210
+training: [epoch = 11, step = 540, images = 8640] loss: 0.286, median pearson coefficient: 0.210
+training: [epoch = 11, step = 560, images = 8960] loss: 0.285, median pearson coefficient: 0.211
+training: [epoch = 11, step = 580, images = 9280] loss: 0.285, median pearson coefficient: 0.211
+training: [epoch = 11, step = 600, images = 9600] loss: 0.285, median pearson coefficient: 0.211
+training: [epoch = 11, step = 620, images = 9920] loss: 0.285, median pearson coefficient: 0.211
+training: [epoch = 11, step = 640, images = 10240] loss: 0.285, median pearson coefficient: 0.211
+training: [epoch = 11, step = 660, images = 10560] loss: 0.285, median pearson coefficient: 0.211
+training: [epoch = 11, step = 680, images = 10880] loss: 0.285, median pearson coefficient: 0.211
+training: [epoch = 11, step = 700, images = 11200] loss: 0.285, median pearson coefficient: 0.210
+validation sample A2
+validation: [step = 10] loss: 0.357, median pearson coefficient: 0.062
+validation sample A2
+validation: [step = 20] loss: 0.357, median pearson coefficient: 0.065
+GNN
+
+EPOCH = 11, loss_train_avg = 0.285, loss_val_avg = 0.357, epoch_median_pcc_train = 0.210, epoch_median_pcc_val = 0.065
+
+================================================================================2023-07-08 21:07:25
+training: [epoch = 12, step = 20, images = 320] loss: 0.284, median pearson coefficient: 0.226
+training: [epoch = 12, step = 40, images = 640] loss: 0.287, median pearson coefficient: 0.214
+training: [epoch = 12, step = 60, images = 960] loss: 0.287, median pearson coefficient: 0.212
+training: [epoch = 12, step = 80, images = 1280] loss: 0.287, median pearson coefficient: 0.216
+training: [epoch = 12, step = 100, images = 1600] loss: 0.285, median pearson coefficient: 0.224
+training: [epoch = 12, step = 120, images = 1920] loss: 0.285, median pearson coefficient: 0.220
+training: [epoch = 12, step = 140, images = 2240] loss: 0.285, median pearson coefficient: 0.220
+training: [epoch = 12, step = 160, images = 2560] loss: 0.284, median pearson coefficient: 0.221
+training: [epoch = 12, step = 180, images = 2880] loss: 0.284, median pearson coefficient: 0.218
+training: [epoch = 12, step = 200, images = 3200] loss: 0.284, median pearson coefficient: 0.219
+training: [epoch = 12, step = 220, images = 3520] loss: 0.284, median pearson coefficient: 0.219
+training: [epoch = 12, step = 240, images = 3840] loss: 0.284, median pearson coefficient: 0.217
+training: [epoch = 12, step = 260, images = 4160] loss: 0.284, median pearson coefficient: 0.217
+training: [epoch = 12, step = 280, images = 4480] loss: 0.284, median pearson coefficient: 0.216
+training: [epoch = 12, step = 300, images = 4800] loss: 0.284, median pearson coefficient: 0.216
+training: [epoch = 12, step = 320, images = 5120] loss: 0.284, median pearson coefficient: 0.215
+training: [epoch = 12, step = 340, images = 5440] loss: 0.284, median pearson coefficient: 0.215
+training: [epoch = 12, step = 360, images = 5760] loss: 0.284, median pearson coefficient: 0.215
+training: [epoch = 12, step = 380, images = 6080] loss: 0.284, median pearson coefficient: 0.215
+training: [epoch = 12, step = 400, images = 6400] loss: 0.284, median pearson coefficient: 0.216
+training: [epoch = 12, step = 420, images = 6720] loss: 0.284, median pearson coefficient: 0.214
+training: [epoch = 12, step = 440, images = 7040] loss: 0.284, median pearson coefficient: 0.214
+training: [epoch = 12, step = 460, images = 7360] loss: 0.284, median pearson coefficient: 0.214
+training: [epoch = 12, step = 480, images = 7680] loss: 0.283, median pearson coefficient: 0.214
+training: [epoch = 12, step = 500, images = 8000] loss: 0.283, median pearson coefficient: 0.215
+training: [epoch = 12, step = 520, images = 8320] loss: 0.283, median pearson coefficient: 0.213
+training: [epoch = 12, step = 540, images = 8640] loss: 0.283, median pearson coefficient: 0.213
+training: [epoch = 12, step = 560, images = 8960] loss: 0.283, median pearson coefficient: 0.215
+training: [epoch = 12, step = 580, images = 9280] loss: 0.283, median pearson coefficient: 0.214
+training: [epoch = 12, step = 600, images = 9600] loss: 0.283, median pearson coefficient: 0.215
+training: [epoch = 12, step = 620, images = 9920] loss: 0.283, median pearson coefficient: 0.216
+training: [epoch = 12, step = 640, images = 10240] loss: 0.283, median pearson coefficient: 0.215
+training: [epoch = 12, step = 660, images = 10560] loss: 0.283, median pearson coefficient: 0.215
+training: [epoch = 12, step = 680, images = 10880] loss: 0.284, median pearson coefficient: 0.215
+training: [epoch = 12, step = 700, images = 11200] loss: 0.284, median pearson coefficient: 0.214
+validation sample A2
+validation: [step = 10] loss: 0.354, median pearson coefficient: 0.075
+validation sample A2
+validation: [step = 20] loss: 0.354, median pearson coefficient: 0.067
+GNN
+
+EPOCH = 12, loss_train_avg = 0.284, loss_val_avg = 0.354, epoch_median_pcc_train = 0.215, epoch_median_pcc_val = 0.067
+
+================================================================================2023-07-09 00:14:49
+training: [epoch = 13, step = 20, images = 320] loss: 0.281, median pearson coefficient: 0.224
+training: [epoch = 13, step = 40, images = 640] loss: 0.281, median pearson coefficient: 0.229
+training: [epoch = 13, step = 60, images = 960] loss: 0.282, median pearson coefficient: 0.224
+training: [epoch = 13, step = 80, images = 1280] loss: 0.283, median pearson coefficient: 0.220
+training: [epoch = 13, step = 100, images = 1600] loss: 0.284, median pearson coefficient: 0.218
+training: [epoch = 13, step = 120, images = 1920] loss: 0.283, median pearson coefficient: 0.220
+training: [epoch = 13, step = 140, images = 2240] loss: 0.283, median pearson coefficient: 0.216
+training: [epoch = 13, step = 160, images = 2560] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 13, step = 180, images = 2880] loss: 0.283, median pearson coefficient: 0.216
+training: [epoch = 13, step = 200, images = 3200] loss: 0.282, median pearson coefficient: 0.221
+training: [epoch = 13, step = 220, images = 3520] loss: 0.283, median pearson coefficient: 0.221
+training: [epoch = 13, step = 240, images = 3840] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 13, step = 260, images = 4160] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 13, step = 280, images = 4480] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 13, step = 300, images = 4800] loss: 0.282, median pearson coefficient: 0.218
+training: [epoch = 13, step = 320, images = 5120] loss: 0.283, median pearson coefficient: 0.219
+training: [epoch = 13, step = 340, images = 5440] loss: 0.283, median pearson coefficient: 0.219
+training: [epoch = 13, step = 360, images = 5760] loss: 0.283, median pearson coefficient: 0.219
+training: [epoch = 13, step = 380, images = 6080] loss: 0.283, median pearson coefficient: 0.219
+training: [epoch = 13, step = 400, images = 6400] loss: 0.283, median pearson coefficient: 0.219
+training: [epoch = 13, step = 420, images = 6720] loss: 0.283, median pearson coefficient: 0.218
+training: [epoch = 13, step = 440, images = 7040] loss: 0.283, median pearson coefficient: 0.218
+training: [epoch = 13, step = 460, images = 7360] loss: 0.283, median pearson coefficient: 0.218
+training: [epoch = 13, step = 480, images = 7680] loss: 0.283, median pearson coefficient: 0.217
+training: [epoch = 13, step = 500, images = 8000] loss: 0.283, median pearson coefficient: 0.218
+training: [epoch = 13, step = 520, images = 8320] loss: 0.283, median pearson coefficient: 0.217
+training: [epoch = 13, step = 540, images = 8640] loss: 0.283, median pearson coefficient: 0.217
+training: [epoch = 13, step = 560, images = 8960] loss: 0.283, median pearson coefficient: 0.217
+training: [epoch = 13, step = 580, images = 9280] loss: 0.283, median pearson coefficient: 0.217
+training: [epoch = 13, step = 600, images = 9600] loss: 0.283, median pearson coefficient: 0.216
+training: [epoch = 13, step = 620, images = 9920] loss: 0.283, median pearson coefficient: 0.216
+training: [epoch = 13, step = 640, images = 10240] loss: 0.283, median pearson coefficient: 0.216
+training: [epoch = 13, step = 660, images = 10560] loss: 0.283, median pearson coefficient: 0.216
+training: [epoch = 13, step = 680, images = 10880] loss: 0.283, median pearson coefficient: 0.217
+training: [epoch = 13, step = 700, images = 11200] loss: 0.283, median pearson coefficient: 0.216
+validation sample A2
+validation: [step = 10] loss: 0.356, median pearson coefficient: 0.084
+validation sample A2
+validation: [step = 20] loss: 0.354, median pearson coefficient: 0.073
+GNN
+
+EPOCH = 13, loss_train_avg = 0.283, loss_val_avg = 0.354, epoch_median_pcc_train = 0.216, epoch_median_pcc_val = 0.073
+
+================================================================================2023-07-09 04:18:13
+Sample: A2 best epoch now: 13
+training: [epoch = 14, step = 20, images = 320] loss: 0.287, median pearson coefficient: 0.218
+training: [epoch = 14, step = 40, images = 640] loss: 0.284, median pearson coefficient: 0.226
+training: [epoch = 14, step = 60, images = 960] loss: 0.282, median pearson coefficient: 0.224
+training: [epoch = 14, step = 80, images = 1280] loss: 0.284, median pearson coefficient: 0.219
+training: [epoch = 14, step = 100, images = 1600] loss: 0.283, median pearson coefficient: 0.222
+training: [epoch = 14, step = 120, images = 1920] loss: 0.283, median pearson coefficient: 0.221
+training: [epoch = 14, step = 140, images = 2240] loss: 0.283, median pearson coefficient: 0.221
+training: [epoch = 14, step = 160, images = 2560] loss: 0.282, median pearson coefficient: 0.221
+training: [epoch = 14, step = 180, images = 2880] loss: 0.282, median pearson coefficient: 0.221
+training: [epoch = 14, step = 200, images = 3200] loss: 0.282, median pearson coefficient: 0.222
+training: [epoch = 14, step = 220, images = 3520] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 14, step = 240, images = 3840] loss: 0.281, median pearson coefficient: 0.219
+training: [epoch = 14, step = 260, images = 4160] loss: 0.281, median pearson coefficient: 0.219
+training: [epoch = 14, step = 280, images = 4480] loss: 0.281, median pearson coefficient: 0.220
+training: [epoch = 14, step = 300, images = 4800] loss: 0.281, median pearson coefficient: 0.220
+training: [epoch = 14, step = 320, images = 5120] loss: 0.281, median pearson coefficient: 0.219
+training: [epoch = 14, step = 340, images = 5440] loss: 0.281, median pearson coefficient: 0.220
+training: [epoch = 14, step = 360, images = 5760] loss: 0.281, median pearson coefficient: 0.221
+training: [epoch = 14, step = 380, images = 6080] loss: 0.281, median pearson coefficient: 0.221
+training: [epoch = 14, step = 400, images = 6400] loss: 0.281, median pearson coefficient: 0.222
+training: [epoch = 14, step = 420, images = 6720] loss: 0.281, median pearson coefficient: 0.221
+training: [epoch = 14, step = 440, images = 7040] loss: 0.281, median pearson coefficient: 0.222
+training: [epoch = 14, step = 460, images = 7360] loss: 0.282, median pearson coefficient: 0.221
+training: [epoch = 14, step = 480, images = 7680] loss: 0.282, median pearson coefficient: 0.222
+training: [epoch = 14, step = 500, images = 8000] loss: 0.282, median pearson coefficient: 0.222
+training: [epoch = 14, step = 520, images = 8320] loss: 0.282, median pearson coefficient: 0.221
+training: [epoch = 14, step = 540, images = 8640] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 14, step = 560, images = 8960] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 14, step = 580, images = 9280] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 14, step = 600, images = 9600] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 14, step = 620, images = 9920] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 14, step = 640, images = 10240] loss: 0.282, median pearson coefficient: 0.218
+training: [epoch = 14, step = 660, images = 10560] loss: 0.282, median pearson coefficient: 0.218
+training: [epoch = 14, step = 680, images = 10880] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 14, step = 700, images = 11200] loss: 0.282, median pearson coefficient: 0.219
+validation sample A2
+validation: [step = 10] loss: 0.362, median pearson coefficient: 0.074
+validation sample A2
+validation: [step = 20] loss: 0.359, median pearson coefficient: 0.074
+GNN
+
+EPOCH = 14, loss_train_avg = 0.282, loss_val_avg = 0.359, epoch_median_pcc_train = 0.220, epoch_median_pcc_val = 0.074
+
+================================================================================2023-07-09 07:08:18
+Sample: A2 best epoch now: 14
+training: [epoch = 15, step = 20, images = 320] loss: 0.274, median pearson coefficient: 0.241
+training: [epoch = 15, step = 40, images = 640] loss: 0.279, median pearson coefficient: 0.220
+training: [epoch = 15, step = 60, images = 960] loss: 0.279, median pearson coefficient: 0.216
+training: [epoch = 15, step = 80, images = 1280] loss: 0.280, median pearson coefficient: 0.219
+training: [epoch = 15, step = 100, images = 1600] loss: 0.279, median pearson coefficient: 0.220
+training: [epoch = 15, step = 120, images = 1920] loss: 0.281, median pearson coefficient: 0.219
+training: [epoch = 15, step = 140, images = 2240] loss: 0.281, median pearson coefficient: 0.219
+training: [epoch = 15, step = 160, images = 2560] loss: 0.282, median pearson coefficient: 0.222
+training: [epoch = 15, step = 180, images = 2880] loss: 0.282, median pearson coefficient: 0.222
+training: [epoch = 15, step = 200, images = 3200] loss: 0.281, median pearson coefficient: 0.222
+training: [epoch = 15, step = 220, images = 3520] loss: 0.281, median pearson coefficient: 0.222
+training: [epoch = 15, step = 240, images = 3840] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 15, step = 260, images = 4160] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 15, step = 280, images = 4480] loss: 0.282, median pearson coefficient: 0.218
+training: [epoch = 15, step = 300, images = 4800] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 15, step = 320, images = 5120] loss: 0.282, median pearson coefficient: 0.219
+training: [epoch = 15, step = 340, images = 5440] loss: 0.282, median pearson coefficient: 0.218
+training: [epoch = 15, step = 360, images = 5760] loss: 0.282, median pearson coefficient: 0.218
+training: [epoch = 15, step = 380, images = 6080] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 15, step = 400, images = 6400] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 15, step = 420, images = 6720] loss: 0.281, median pearson coefficient: 0.221
+training: [epoch = 15, step = 440, images = 7040] loss: 0.281, median pearson coefficient: 0.223
+training: [epoch = 15, step = 460, images = 7360] loss: 0.281, median pearson coefficient: 0.223
+training: [epoch = 15, step = 480, images = 7680] loss: 0.281, median pearson coefficient: 0.223
+training: [epoch = 15, step = 500, images = 8000] loss: 0.281, median pearson coefficient: 0.224
+training: [epoch = 15, step = 520, images = 8320] loss: 0.281, median pearson coefficient: 0.224
+training: [epoch = 15, step = 540, images = 8640] loss: 0.281, median pearson coefficient: 0.223
+training: [epoch = 15, step = 560, images = 8960] loss: 0.281, median pearson coefficient: 0.222
+training: [epoch = 15, step = 580, images = 9280] loss: 0.281, median pearson coefficient: 0.224
+training: [epoch = 15, step = 600, images = 9600] loss: 0.281, median pearson coefficient: 0.224
+training: [epoch = 15, step = 620, images = 9920] loss: 0.281, median pearson coefficient: 0.225
+training: [epoch = 15, step = 640, images = 10240] loss: 0.281, median pearson coefficient: 0.224
+training: [epoch = 15, step = 660, images = 10560] loss: 0.281, median pearson coefficient: 0.224
+training: [epoch = 15, step = 680, images = 10880] loss: 0.281, median pearson coefficient: 0.223
+training: [epoch = 15, step = 700, images = 11200] loss: 0.280, median pearson coefficient: 0.224
+validation sample A2
+validation: [step = 10] loss: 0.357, median pearson coefficient: 0.076
+validation sample A2
+validation: [step = 20] loss: 0.354, median pearson coefficient: 0.073
+GNN
+
+EPOCH = 15, loss_train_avg = 0.280, loss_val_avg = 0.354, epoch_median_pcc_train = 0.224, epoch_median_pcc_val = 0.073
+
+================================================================================2023-07-09 09:51:23
+training: [epoch = 16, step = 20, images = 320] loss: 0.278, median pearson coefficient: 0.232
+training: [epoch = 16, step = 40, images = 640] loss: 0.279, median pearson coefficient: 0.225
+training: [epoch = 16, step = 60, images = 960] loss: 0.281, median pearson coefficient: 0.222
+training: [epoch = 16, step = 80, images = 1280] loss: 0.281, median pearson coefficient: 0.225
+training: [epoch = 16, step = 100, images = 1600] loss: 0.281, median pearson coefficient: 0.226
+training: [epoch = 16, step = 120, images = 1920] loss: 0.280, median pearson coefficient: 0.229
+training: [epoch = 16, step = 140, images = 2240] loss: 0.280, median pearson coefficient: 0.227
+training: [epoch = 16, step = 160, images = 2560] loss: 0.281, median pearson coefficient: 0.228
+training: [epoch = 16, step = 180, images = 2880] loss: 0.280, median pearson coefficient: 0.226
+training: [epoch = 16, step = 200, images = 3200] loss: 0.280, median pearson coefficient: 0.227
+training: [epoch = 16, step = 220, images = 3520] loss: 0.280, median pearson coefficient: 0.226
+training: [epoch = 16, step = 240, images = 3840] loss: 0.280, median pearson coefficient: 0.228
+training: [epoch = 16, step = 260, images = 4160] loss: 0.280, median pearson coefficient: 0.227
+training: [epoch = 16, step = 280, images = 4480] loss: 0.280, median pearson coefficient: 0.228
+training: [epoch = 16, step = 300, images = 4800] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 16, step = 320, images = 5120] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 16, step = 340, images = 5440] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 16, step = 360, images = 5760] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 16, step = 380, images = 6080] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 16, step = 400, images = 6400] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 16, step = 420, images = 6720] loss: 0.279, median pearson coefficient: 0.228
+training: [epoch = 16, step = 440, images = 7040] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 16, step = 460, images = 7360] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 16, step = 480, images = 7680] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 16, step = 500, images = 8000] loss: 0.279, median pearson coefficient: 0.228
+training: [epoch = 16, step = 520, images = 8320] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 16, step = 540, images = 8640] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 16, step = 560, images = 8960] loss: 0.279, median pearson coefficient: 0.227
+training: [epoch = 16, step = 580, images = 9280] loss: 0.279, median pearson coefficient: 0.227
+training: [epoch = 16, step = 600, images = 9600] loss: 0.280, median pearson coefficient: 0.227
+training: [epoch = 16, step = 620, images = 9920] loss: 0.280, median pearson coefficient: 0.227
+training: [epoch = 16, step = 640, images = 10240] loss: 0.280, median pearson coefficient: 0.228
+training: [epoch = 16, step = 660, images = 10560] loss: 0.280, median pearson coefficient: 0.228
+training: [epoch = 16, step = 680, images = 10880] loss: 0.280, median pearson coefficient: 0.228
+training: [epoch = 16, step = 700, images = 11200] loss: 0.280, median pearson coefficient: 0.228
+validation sample A2
+validation: [step = 10] loss: 0.358, median pearson coefficient: 0.069
+validation sample A2
+validation: [step = 20] loss: 0.355, median pearson coefficient: 0.070
+GNN
+
+EPOCH = 16, loss_train_avg = 0.280, loss_val_avg = 0.355, epoch_median_pcc_train = 0.228, epoch_median_pcc_val = 0.070
+
+================================================================================2023-07-09 12:37:46
+training: [epoch = 17, step = 20, images = 320] loss: 0.282, median pearson coefficient: 0.220
+training: [epoch = 17, step = 40, images = 640] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 17, step = 60, images = 960] loss: 0.280, median pearson coefficient: 0.237
+training: [epoch = 17, step = 80, images = 1280] loss: 0.281, median pearson coefficient: 0.235
+training: [epoch = 17, step = 100, images = 1600] loss: 0.281, median pearson coefficient: 0.229
+training: [epoch = 17, step = 120, images = 1920] loss: 0.281, median pearson coefficient: 0.231
+training: [epoch = 17, step = 140, images = 2240] loss: 0.280, median pearson coefficient: 0.231
+training: [epoch = 17, step = 160, images = 2560] loss: 0.279, median pearson coefficient: 0.231
+training: [epoch = 17, step = 180, images = 2880] loss: 0.280, median pearson coefficient: 0.229
+training: [epoch = 17, step = 200, images = 3200] loss: 0.280, median pearson coefficient: 0.229
+training: [epoch = 17, step = 220, images = 3520] loss: 0.280, median pearson coefficient: 0.228
+training: [epoch = 17, step = 240, images = 3840] loss: 0.280, median pearson coefficient: 0.229
+training: [epoch = 17, step = 260, images = 4160] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 280, images = 4480] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 300, images = 4800] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 320, images = 5120] loss: 0.279, median pearson coefficient: 0.232
+training: [epoch = 17, step = 340, images = 5440] loss: 0.279, median pearson coefficient: 0.231
+training: [epoch = 17, step = 360, images = 5760] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 380, images = 6080] loss: 0.279, median pearson coefficient: 0.231
+training: [epoch = 17, step = 400, images = 6400] loss: 0.279, median pearson coefficient: 0.232
+training: [epoch = 17, step = 420, images = 6720] loss: 0.279, median pearson coefficient: 0.231
+training: [epoch = 17, step = 440, images = 7040] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 460, images = 7360] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 17, step = 480, images = 7680] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 17, step = 500, images = 8000] loss: 0.279, median pearson coefficient: 0.231
+training: [epoch = 17, step = 520, images = 8320] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 540, images = 8640] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 560, images = 8960] loss: 0.279, median pearson coefficient: 0.229
+training: [epoch = 17, step = 580, images = 9280] loss: 0.279, median pearson coefficient: 0.228
+training: [epoch = 17, step = 600, images = 9600] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 620, images = 9920] loss: 0.279, median pearson coefficient: 0.230
+training: [epoch = 17, step = 640, images = 10240] loss: 0.279, median pearson coefficient: 0.231
+training: [epoch = 17, step = 660, images = 10560] loss: 0.279, median pearson coefficient: 0.232
+training: [epoch = 17, step = 680, images = 10880] loss: 0.279, median pearson coefficient: 0.231
+training: [epoch = 17, step = 700, images = 11200] loss: 0.279, median pearson coefficient: 0.230
+validation sample A2
+validation: [step = 10] loss: 0.350, median pearson coefficient: 0.069
+validation sample A2
+validation: [step = 20] loss: 0.353, median pearson coefficient: 0.070
+GNN
+
+EPOCH = 17, loss_train_avg = 0.279, loss_val_avg = 0.353, epoch_median_pcc_train = 0.230, epoch_median_pcc_val = 0.070
+
+================================================================================2023-07-09 15:21:24
+training: [epoch = 18, step = 20, images = 320] loss: 0.280, median pearson coefficient: 0.242
+training: [epoch = 18, step = 40, images = 640] loss: 0.281, median pearson coefficient: 0.243
+training: [epoch = 18, step = 60, images = 960] loss: 0.280, median pearson coefficient: 0.231
+training: [epoch = 18, step = 80, images = 1280] loss: 0.279, median pearson coefficient: 0.233
+training: [epoch = 18, step = 100, images = 1600] loss: 0.280, median pearson coefficient: 0.232
+training: [epoch = 18, step = 120, images = 1920] loss: 0.280, median pearson coefficient: 0.232
+training: [epoch = 18, step = 140, images = 2240] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 160, images = 2560] loss: 0.279, median pearson coefficient: 0.236
+training: [epoch = 18, step = 180, images = 2880] loss: 0.279, median pearson coefficient: 0.235
+training: [epoch = 18, step = 200, images = 3200] loss: 0.279, median pearson coefficient: 0.233
+training: [epoch = 18, step = 220, images = 3520] loss: 0.280, median pearson coefficient: 0.235
+training: [epoch = 18, step = 240, images = 3840] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 260, images = 4160] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 280, images = 4480] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 300, images = 4800] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 320, images = 5120] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 340, images = 5440] loss: 0.279, median pearson coefficient: 0.233
+training: [epoch = 18, step = 360, images = 5760] loss: 0.279, median pearson coefficient: 0.233
+training: [epoch = 18, step = 380, images = 6080] loss: 0.279, median pearson coefficient: 0.235
+training: [epoch = 18, step = 400, images = 6400] loss: 0.279, median pearson coefficient: 0.233
+training: [epoch = 18, step = 420, images = 6720] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 440, images = 7040] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 460, images = 7360] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 480, images = 7680] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 18, step = 500, images = 8000] loss: 0.278, median pearson coefficient: 0.234
+training: [epoch = 18, step = 520, images = 8320] loss: 0.278, median pearson coefficient: 0.235
+training: [epoch = 18, step = 540, images = 8640] loss: 0.278, median pearson coefficient: 0.234
+training: [epoch = 18, step = 560, images = 8960] loss: 0.278, median pearson coefficient: 0.234
+training: [epoch = 18, step = 580, images = 9280] loss: 0.278, median pearson coefficient: 0.233
+training: [epoch = 18, step = 600, images = 9600] loss: 0.278, median pearson coefficient: 0.234
+training: [epoch = 18, step = 620, images = 9920] loss: 0.278, median pearson coefficient: 0.233
+training: [epoch = 18, step = 640, images = 10240] loss: 0.278, median pearson coefficient: 0.233
+training: [epoch = 18, step = 660, images = 10560] loss: 0.278, median pearson coefficient: 0.233
+training: [epoch = 18, step = 680, images = 10880] loss: 0.278, median pearson coefficient: 0.233
+training: [epoch = 18, step = 700, images = 11200] loss: 0.278, median pearson coefficient: 0.233
+validation sample A2
+validation: [step = 10] loss: 0.351, median pearson coefficient: 0.074
+validation sample A2
+validation: [step = 20] loss: 0.355, median pearson coefficient: 0.065
+GNN
+
+EPOCH = 18, loss_train_avg = 0.278, loss_val_avg = 0.355, epoch_median_pcc_train = 0.234, epoch_median_pcc_val = 0.065
+
+================================================================================2023-07-09 18:14:46
+training: [epoch = 19, step = 20, images = 320] loss: 0.280, median pearson coefficient: 0.238
+training: [epoch = 19, step = 40, images = 640] loss: 0.279, median pearson coefficient: 0.234
+training: [epoch = 19, step = 60, images = 960] loss: 0.279, median pearson coefficient: 0.235
+training: [epoch = 19, step = 80, images = 1280] loss: 0.279, median pearson coefficient: 0.232
+training: [epoch = 19, step = 100, images = 1600] loss: 0.278, median pearson coefficient: 0.235
+training: [epoch = 19, step = 120, images = 1920] loss: 0.277, median pearson coefficient: 0.235
+training: [epoch = 19, step = 140, images = 2240] loss: 0.277, median pearson coefficient: 0.235
+training: [epoch = 19, step = 160, images = 2560] loss: 0.277, median pearson coefficient: 0.233
+training: [epoch = 19, step = 180, images = 2880] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 200, images = 3200] loss: 0.277, median pearson coefficient: 0.232
+training: [epoch = 19, step = 220, images = 3520] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 240, images = 3840] loss: 0.277, median pearson coefficient: 0.232
+training: [epoch = 19, step = 260, images = 4160] loss: 0.278, median pearson coefficient: 0.232
+training: [epoch = 19, step = 280, images = 4480] loss: 0.278, median pearson coefficient: 0.232
+training: [epoch = 19, step = 300, images = 4800] loss: 0.278, median pearson coefficient: 0.231
+training: [epoch = 19, step = 320, images = 5120] loss: 0.278, median pearson coefficient: 0.232
+training: [epoch = 19, step = 340, images = 5440] loss: 0.278, median pearson coefficient: 0.232
+training: [epoch = 19, step = 360, images = 5760] loss: 0.278, median pearson coefficient: 0.231
+training: [epoch = 19, step = 380, images = 6080] loss: 0.277, median pearson coefficient: 0.233
+training: [epoch = 19, step = 400, images = 6400] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 420, images = 6720] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 440, images = 7040] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 460, images = 7360] loss: 0.277, median pearson coefficient: 0.233
+training: [epoch = 19, step = 480, images = 7680] loss: 0.277, median pearson coefficient: 0.232
+training: [epoch = 19, step = 500, images = 8000] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 520, images = 8320] loss: 0.277, median pearson coefficient: 0.235
+training: [epoch = 19, step = 540, images = 8640] loss: 0.277, median pearson coefficient: 0.236
+training: [epoch = 19, step = 560, images = 8960] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 580, images = 9280] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 600, images = 9600] loss: 0.277, median pearson coefficient: 0.235
+training: [epoch = 19, step = 620, images = 9920] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 640, images = 10240] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 660, images = 10560] loss: 0.277, median pearson coefficient: 0.234
+training: [epoch = 19, step = 680, images = 10880] loss: 0.277, median pearson coefficient: 0.233
+training: [epoch = 19, step = 700, images = 11200] loss: 0.277, median pearson coefficient: 0.234
+validation sample A2
+validation: [step = 10] loss: 0.373, median pearson coefficient: 0.068
+validation sample A2
+validation: [step = 20] loss: 0.372, median pearson coefficient: 0.066
+GNN
+
+EPOCH = 19, loss_train_avg = 0.277, loss_val_avg = 0.372, epoch_median_pcc_train = 0.234, epoch_median_pcc_val = 0.066
+
+================================================================================2023-07-09 21:17:53
+training: [epoch = 20, step = 20, images = 320] loss: 0.280, median pearson coefficient: 0.244
+training: [epoch = 20, step = 40, images = 640] loss: 0.276, median pearson coefficient: 0.248
+training: [epoch = 20, step = 60, images = 960] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 20, step = 80, images = 1280] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 20, step = 100, images = 1600] loss: 0.276, median pearson coefficient: 0.236
+training: [epoch = 20, step = 120, images = 1920] loss: 0.275, median pearson coefficient: 0.237
+training: [epoch = 20, step = 140, images = 2240] loss: 0.275, median pearson coefficient: 0.237
+training: [epoch = 20, step = 160, images = 2560] loss: 0.276, median pearson coefficient: 0.238
+training: [epoch = 20, step = 180, images = 2880] loss: 0.275, median pearson coefficient: 0.239
+training: [epoch = 20, step = 200, images = 3200] loss: 0.275, median pearson coefficient: 0.238
+training: [epoch = 20, step = 220, images = 3520] loss: 0.275, median pearson coefficient: 0.236
+training: [epoch = 20, step = 240, images = 3840] loss: 0.275, median pearson coefficient: 0.238
+training: [epoch = 20, step = 260, images = 4160] loss: 0.275, median pearson coefficient: 0.239
+training: [epoch = 20, step = 280, images = 4480] loss: 0.276, median pearson coefficient: 0.238
+training: [epoch = 20, step = 300, images = 4800] loss: 0.276, median pearson coefficient: 0.238
+training: [epoch = 20, step = 320, images = 5120] loss: 0.275, median pearson coefficient: 0.239
+training: [epoch = 20, step = 340, images = 5440] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 20, step = 360, images = 5760] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 20, step = 380, images = 6080] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 20, step = 400, images = 6400] loss: 0.276, median pearson coefficient: 0.241
+training: [epoch = 20, step = 420, images = 6720] loss: 0.276, median pearson coefficient: 0.242
+training: [epoch = 20, step = 440, images = 7040] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 20, step = 460, images = 7360] loss: 0.276, median pearson coefficient: 0.239
+training: [epoch = 20, step = 480, images = 7680] loss: 0.276, median pearson coefficient: 0.239
+training: [epoch = 20, step = 500, images = 8000] loss: 0.276, median pearson coefficient: 0.239
+training: [epoch = 20, step = 520, images = 8320] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 20, step = 540, images = 8640] loss: 0.276, median pearson coefficient: 0.239
+training: [epoch = 20, step = 560, images = 8960] loss: 0.276, median pearson coefficient: 0.239
+training: [epoch = 20, step = 580, images = 9280] loss: 0.276, median pearson coefficient: 0.238
+training: [epoch = 20, step = 600, images = 9600] loss: 0.276, median pearson coefficient: 0.238
+training: [epoch = 20, step = 620, images = 9920] loss: 0.276, median pearson coefficient: 0.237
+training: [epoch = 20, step = 640, images = 10240] loss: 0.277, median pearson coefficient: 0.237
+training: [epoch = 20, step = 660, images = 10560] loss: 0.277, median pearson coefficient: 0.238
+training: [epoch = 20, step = 680, images = 10880] loss: 0.277, median pearson coefficient: 0.238
+training: [epoch = 20, step = 700, images = 11200] loss: 0.277, median pearson coefficient: 0.239
+validation sample A2
+validation: [step = 10] loss: 0.359, median pearson coefficient: 0.067
+validation sample A2
+validation: [step = 20] loss: 0.359, median pearson coefficient: 0.065
+GNN
+
+EPOCH = 20, loss_train_avg = 0.277, loss_val_avg = 0.359, epoch_median_pcc_train = 0.239, epoch_median_pcc_val = 0.065
+
+================================================================================2023-07-10 00:22:20
+training: [epoch = 21, step = 20, images = 320] loss: 0.272, median pearson coefficient: 0.267
+training: [epoch = 21, step = 40, images = 640] loss: 0.275, median pearson coefficient: 0.253
+training: [epoch = 21, step = 60, images = 960] loss: 0.276, median pearson coefficient: 0.250
+training: [epoch = 21, step = 80, images = 1280] loss: 0.275, median pearson coefficient: 0.251
+training: [epoch = 21, step = 100, images = 1600] loss: 0.275, median pearson coefficient: 0.251
+training: [epoch = 21, step = 120, images = 1920] loss: 0.275, median pearson coefficient: 0.248
+training: [epoch = 21, step = 140, images = 2240] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 21, step = 160, images = 2560] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 21, step = 180, images = 2880] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 21, step = 200, images = 3200] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 21, step = 220, images = 3520] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 21, step = 240, images = 3840] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 21, step = 260, images = 4160] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 21, step = 280, images = 4480] loss: 0.276, median pearson coefficient: 0.246
+training: [epoch = 21, step = 300, images = 4800] loss: 0.276, median pearson coefficient: 0.248
+training: [epoch = 21, step = 320, images = 5120] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 21, step = 340, images = 5440] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 21, step = 360, images = 5760] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 21, step = 380, images = 6080] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 21, step = 400, images = 6400] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 21, step = 420, images = 6720] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 21, step = 440, images = 7040] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 21, step = 460, images = 7360] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 21, step = 480, images = 7680] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 21, step = 500, images = 8000] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 21, step = 520, images = 8320] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 21, step = 540, images = 8640] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 21, step = 560, images = 8960] loss: 0.276, median pearson coefficient: 0.242
+training: [epoch = 21, step = 580, images = 9280] loss: 0.276, median pearson coefficient: 0.241
+training: [epoch = 21, step = 600, images = 9600] loss: 0.276, median pearson coefficient: 0.241
+training: [epoch = 21, step = 620, images = 9920] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 21, step = 640, images = 10240] loss: 0.276, median pearson coefficient: 0.241
+training: [epoch = 21, step = 660, images = 10560] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 21, step = 680, images = 10880] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 21, step = 700, images = 11200] loss: 0.276, median pearson coefficient: 0.240
+validation sample A2
+validation: [step = 10] loss: 0.350, median pearson coefficient: 0.066
+validation sample A2
+validation: [step = 20] loss: 0.352, median pearson coefficient: 0.067
+GNN
+
+EPOCH = 21, loss_train_avg = 0.276, loss_val_avg = 0.352, epoch_median_pcc_train = 0.239, epoch_median_pcc_val = 0.067
+
+================================================================================2023-07-10 03:20:36
+training: [epoch = 22, step = 20, images = 320] loss: 0.276, median pearson coefficient: 0.271
+training: [epoch = 22, step = 40, images = 640] loss: 0.277, median pearson coefficient: 0.254
+training: [epoch = 22, step = 60, images = 960] loss: 0.277, median pearson coefficient: 0.250
+training: [epoch = 22, step = 80, images = 1280] loss: 0.277, median pearson coefficient: 0.250
+training: [epoch = 22, step = 100, images = 1600] loss: 0.276, median pearson coefficient: 0.247
+training: [epoch = 22, step = 120, images = 1920] loss: 0.276, median pearson coefficient: 0.246
+training: [epoch = 22, step = 140, images = 2240] loss: 0.275, median pearson coefficient: 0.247
+training: [epoch = 22, step = 160, images = 2560] loss: 0.275, median pearson coefficient: 0.249
+training: [epoch = 22, step = 180, images = 2880] loss: 0.276, median pearson coefficient: 0.246
+training: [epoch = 22, step = 200, images = 3200] loss: 0.276, median pearson coefficient: 0.247
+training: [epoch = 22, step = 220, images = 3520] loss: 0.276, median pearson coefficient: 0.248
+training: [epoch = 22, step = 240, images = 3840] loss: 0.276, median pearson coefficient: 0.247
+training: [epoch = 22, step = 260, images = 4160] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 22, step = 280, images = 4480] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 22, step = 300, images = 4800] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 22, step = 320, images = 5120] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 22, step = 340, images = 5440] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 22, step = 360, images = 5760] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 22, step = 380, images = 6080] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 22, step = 400, images = 6400] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 22, step = 420, images = 6720] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 22, step = 440, images = 7040] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 22, step = 460, images = 7360] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 22, step = 480, images = 7680] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 22, step = 500, images = 8000] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 22, step = 520, images = 8320] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 22, step = 540, images = 8640] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 22, step = 560, images = 8960] loss: 0.276, median pearson coefficient: 0.245
+training: [epoch = 22, step = 580, images = 9280] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 22, step = 600, images = 9600] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 22, step = 620, images = 9920] loss: 0.276, median pearson coefficient: 0.242
+training: [epoch = 22, step = 640, images = 10240] loss: 0.276, median pearson coefficient: 0.241
+training: [epoch = 22, step = 660, images = 10560] loss: 0.276, median pearson coefficient: 0.242
+training: [epoch = 22, step = 680, images = 10880] loss: 0.276, median pearson coefficient: 0.241
+training: [epoch = 22, step = 700, images = 11200] loss: 0.276, median pearson coefficient: 0.241
+validation sample A2
+validation: [step = 10] loss: 0.354, median pearson coefficient: 0.070
+validation sample A2
+validation: [step = 20] loss: 0.353, median pearson coefficient: 0.071
+GNN
+
+EPOCH = 22, loss_train_avg = 0.276, loss_val_avg = 0.353, epoch_median_pcc_train = 0.241, epoch_median_pcc_val = 0.071
+
+================================================================================2023-07-10 07:33:35
+training: [epoch = 23, step = 20, images = 320] loss: 0.273, median pearson coefficient: 0.271
+training: [epoch = 23, step = 40, images = 640] loss: 0.272, median pearson coefficient: 0.257
+training: [epoch = 23, step = 60, images = 960] loss: 0.276, median pearson coefficient: 0.251
+training: [epoch = 23, step = 80, images = 1280] loss: 0.275, median pearson coefficient: 0.250
+training: [epoch = 23, step = 100, images = 1600] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 23, step = 120, images = 1920] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 23, step = 140, images = 2240] loss: 0.275, median pearson coefficient: 0.248
+training: [epoch = 23, step = 160, images = 2560] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 23, step = 180, images = 2880] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 23, step = 200, images = 3200] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 23, step = 220, images = 3520] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 23, step = 240, images = 3840] loss: 0.275, median pearson coefficient: 0.243
+training: [epoch = 23, step = 260, images = 4160] loss: 0.275, median pearson coefficient: 0.243
+training: [epoch = 23, step = 280, images = 4480] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 23, step = 300, images = 4800] loss: 0.275, median pearson coefficient: 0.243
+training: [epoch = 23, step = 320, images = 5120] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 340, images = 5440] loss: 0.275, median pearson coefficient: 0.243
+training: [epoch = 23, step = 360, images = 5760] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 23, step = 380, images = 6080] loss: 0.276, median pearson coefficient: 0.243
+training: [epoch = 23, step = 400, images = 6400] loss: 0.276, median pearson coefficient: 0.244
+training: [epoch = 23, step = 420, images = 6720] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 23, step = 440, images = 7040] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 23, step = 460, images = 7360] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 480, images = 7680] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 23, step = 500, images = 8000] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 520, images = 8320] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 540, images = 8640] loss: 0.275, median pearson coefficient: 0.243
+training: [epoch = 23, step = 560, images = 8960] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 580, images = 9280] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 600, images = 9600] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 620, images = 9920] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 640, images = 10240] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 23, step = 660, images = 10560] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 23, step = 680, images = 10880] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 23, step = 700, images = 11200] loss: 0.275, median pearson coefficient: 0.245
+validation sample A2
+validation: [step = 10] loss: 0.356, median pearson coefficient: 0.060
+validation sample A2
+validation: [step = 20] loss: 0.354, median pearson coefficient: 0.060
+GNN
+
+EPOCH = 23, loss_train_avg = 0.275, loss_val_avg = 0.354, epoch_median_pcc_train = 0.245, epoch_median_pcc_val = 0.060
+
+================================================================================2023-07-10 10:29:47
+training: [epoch = 24, step = 20, images = 320] loss: 0.274, median pearson coefficient: 0.247
+training: [epoch = 24, step = 40, images = 640] loss: 0.276, median pearson coefficient: 0.239
+training: [epoch = 24, step = 60, images = 960] loss: 0.274, median pearson coefficient: 0.241
+training: [epoch = 24, step = 80, images = 1280] loss: 0.276, median pearson coefficient: 0.237
+training: [epoch = 24, step = 100, images = 1600] loss: 0.276, median pearson coefficient: 0.241
+training: [epoch = 24, step = 120, images = 1920] loss: 0.276, median pearson coefficient: 0.240
+training: [epoch = 24, step = 140, images = 2240] loss: 0.276, median pearson coefficient: 0.246
+training: [epoch = 24, step = 160, images = 2560] loss: 0.275, median pearson coefficient: 0.251
+training: [epoch = 24, step = 180, images = 2880] loss: 0.275, median pearson coefficient: 0.250
+training: [epoch = 24, step = 200, images = 3200] loss: 0.275, median pearson coefficient: 0.250
+training: [epoch = 24, step = 220, images = 3520] loss: 0.274, median pearson coefficient: 0.249
+training: [epoch = 24, step = 240, images = 3840] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 24, step = 260, images = 4160] loss: 0.274, median pearson coefficient: 0.247
+training: [epoch = 24, step = 280, images = 4480] loss: 0.274, median pearson coefficient: 0.250
+training: [epoch = 24, step = 300, images = 4800] loss: 0.274, median pearson coefficient: 0.250
+training: [epoch = 24, step = 320, images = 5120] loss: 0.274, median pearson coefficient: 0.249
+training: [epoch = 24, step = 340, images = 5440] loss: 0.273, median pearson coefficient: 0.251
+training: [epoch = 24, step = 360, images = 5760] loss: 0.274, median pearson coefficient: 0.250
+training: [epoch = 24, step = 380, images = 6080] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 24, step = 400, images = 6400] loss: 0.274, median pearson coefficient: 0.249
+training: [epoch = 24, step = 420, images = 6720] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 24, step = 440, images = 7040] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 460, images = 7360] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 480, images = 7680] loss: 0.274, median pearson coefficient: 0.244
+training: [epoch = 24, step = 500, images = 8000] loss: 0.274, median pearson coefficient: 0.245
+training: [epoch = 24, step = 520, images = 8320] loss: 0.274, median pearson coefficient: 0.245
+training: [epoch = 24, step = 540, images = 8640] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 560, images = 8960] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 580, images = 9280] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 600, images = 9600] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 620, images = 9920] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 640, images = 10240] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 660, images = 10560] loss: 0.274, median pearson coefficient: 0.247
+training: [epoch = 24, step = 680, images = 10880] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 24, step = 700, images = 11200] loss: 0.274, median pearson coefficient: 0.246
+validation sample A2
+validation: [step = 10] loss: 0.351, median pearson coefficient: 0.064
+validation sample A2
+validation: [step = 20] loss: 0.353, median pearson coefficient: 0.066
+GNN
+
+EPOCH = 24, loss_train_avg = 0.274, loss_val_avg = 0.353, epoch_median_pcc_train = 0.246, epoch_median_pcc_val = 0.066
+
+================================================================================2023-07-10 13:21:15
+training: [epoch = 25, step = 20, images = 320] loss: 0.278, median pearson coefficient: 0.244
+training: [epoch = 25, step = 40, images = 640] loss: 0.273, median pearson coefficient: 0.248
+training: [epoch = 25, step = 60, images = 960] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 25, step = 80, images = 1280] loss: 0.275, median pearson coefficient: 0.247
+training: [epoch = 25, step = 100, images = 1600] loss: 0.273, median pearson coefficient: 0.248
+training: [epoch = 25, step = 120, images = 1920] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 25, step = 140, images = 2240] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 25, step = 160, images = 2560] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 25, step = 180, images = 2880] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 25, step = 200, images = 3200] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 25, step = 220, images = 3520] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 25, step = 240, images = 3840] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 25, step = 260, images = 4160] loss: 0.275, median pearson coefficient: 0.245
+training: [epoch = 25, step = 280, images = 4480] loss: 0.275, median pearson coefficient: 0.246
+training: [epoch = 25, step = 300, images = 4800] loss: 0.275, median pearson coefficient: 0.244
+training: [epoch = 25, step = 320, images = 5120] loss: 0.274, median pearson coefficient: 0.245
+training: [epoch = 25, step = 340, images = 5440] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 25, step = 360, images = 5760] loss: 0.274, median pearson coefficient: 0.247
+training: [epoch = 25, step = 380, images = 6080] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 25, step = 400, images = 6400] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 25, step = 420, images = 6720] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 25, step = 440, images = 7040] loss: 0.274, median pearson coefficient: 0.247
+training: [epoch = 25, step = 460, images = 7360] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 25, step = 480, images = 7680] loss: 0.274, median pearson coefficient: 0.247
+training: [epoch = 25, step = 500, images = 8000] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 25, step = 520, images = 8320] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 25, step = 540, images = 8640] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 25, step = 560, images = 8960] loss: 0.274, median pearson coefficient: 0.245
+training: [epoch = 25, step = 580, images = 9280] loss: 0.274, median pearson coefficient: 0.245
+training: [epoch = 25, step = 600, images = 9600] loss: 0.274, median pearson coefficient: 0.246
+training: [epoch = 25, step = 620, images = 9920] loss: 0.274, median pearson coefficient: 0.247
+training: [epoch = 25, step = 640, images = 10240] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 25, step = 660, images = 10560] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 25, step = 680, images = 10880] loss: 0.274, median pearson coefficient: 0.248
+training: [epoch = 25, step = 700, images = 11200] loss: 0.274, median pearson coefficient: 0.249
+validation sample A2
+validation: [step = 10] loss: 0.353, median pearson coefficient: 0.062
+validation sample A2
+validation: [step = 20] loss: 0.352, median pearson coefficient: 0.069
+GNN
+
+EPOCH = 25, loss_train_avg = 0.274, loss_val_avg = 0.352, epoch_median_pcc_train = 0.249, epoch_median_pcc_val = 0.069
+
+================================================================================2023-07-10 16:09:57

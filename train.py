@@ -6,50 +6,44 @@ import pandas as pd
 import datetime
 
 from dataloader import make_HER2_dataset
-from model import TCGN
+from all_gnn_model import All_GNN
 
 import psutil
 import os
 import gc
 
-use_gpu = torch.cuda.is_available() # gpu加速
+use_gpu = torch.cuda.is_available()
 #use_gpu=False
-torch.cuda.empty_cache() # 清除显卡缓存
-
+os.environ['CUDA_VISIBLE_DEVICES'] = "0"
+torch.cuda.empty_cache()
 
 def ST_TCGN(test_sample_number):
-    batch_size=32
-    epoch=80
+    batch_size=16
+    epoch=26 if test_sample_number<23 else 36
     print("GPU available:", use_gpu)
     # load data
     from timm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
     train_transform = transforms.Compose(
         [transforms.RandomRotation(180),
-         transforms.RandomHorizontalFlip(0.5),  # randomly 水平旋转
-         transforms.RandomVerticalFlip(0.5),  # 随机竖直翻转
+         transforms.RandomHorizontalFlip(0.5),
+         transforms.RandomVerticalFlip(0.5),
          ]
     )
     basic_transform = transforms.Compose(
-        [transforms.Resize((224, 224), antialias=True),  # resize to 256x256 square
-         transforms.ConvertImageDtype(torch.float),
+        [transforms.ConvertImageDtype(torch.float),
          transforms.Normalize(IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD)  # 归一化
          ]
     )
     my_transforms = [basic_transform, train_transform]
-    #/export/home/bs2021
     train_loader, test_loader, test_sample = make_HER2_dataset(test_sample_number,my_transforms,batch_size)
     print("finish loading")
 
     # initialize model
-    import os
-    model_name = "TCGN"
+    model_name = "GNN"
     dirs = "./record-" + model_name
     if not os.path.exists(dirs):
         os.makedirs(dirs)
-    my_model = TCGN()
-    if use_gpu:
-        my_model = my_model.cuda()
-        my_model.load_state_dict(torch.load('./pretrained/cmt_tiny.pth'), strict=False)
+    my_model=All_GNN(num_classes=785).cuda()
 
     # train the model
     # v5: remove the first GNN
@@ -85,9 +79,8 @@ def ST_TCGN(test_sample_number):
 
             predictions = my_model(imgs)
             loss = loss_func(predictions, genes)
-            ## 反向传播求梯度
-            loss.backward()  # 反向传播求各参数梯度
-            optimizer.step()  # 用optimizer更新各参数
+            loss.backward()
+            optimizer.step()
 
             if use_gpu:
                 predictions = predictions.cpu().detach().numpy()
@@ -98,12 +91,12 @@ def ST_TCGN(test_sample_number):
             epoch_median_pcc_train = compare_prediction_label_list(epoch_predict_record_train, epoch_real_record_train)
 
             if use_gpu:
-                loss_train_sum += loss.cpu().item()  # 返回数值要加.item
+                loss_train_sum += loss.cpu().item()
             else:
                 loss_train_sum += loss.item()
 
             gc.collect()
-            if stepi % log_step_freq == 0:  # 当多少个batch后打印结果
+            if stepi % log_step_freq == 0:
                 print(("training: [epoch = %d, step = %d, images = %d] loss: %.3f, " + "median pearson coefficient" + ": %.3f") %
                       (epoch, stepi, stepi*batch_size,loss_train_sum / stepi, epoch_median_pcc_train))
 
@@ -114,7 +107,6 @@ def ST_TCGN(test_sample_number):
         epoch_predict_record_val = []
         step_val = 0
         for stepi, (imgs, genes) in enumerate(test_loader, 1):
-            #print(stepi, end="")
             step_val = stepi
             with torch.no_grad():
                 if use_gpu:
@@ -124,7 +116,7 @@ def ST_TCGN(test_sample_number):
                 loss = loss_func(predictions, genes)
 
                 if use_gpu:
-                    loss_val_sum += loss.cpu().item()  # 返回数值要加.item
+                    loss_val_sum += loss.cpu().item()
                 else:
                     loss_val_sum += loss.item()
 
@@ -137,7 +129,7 @@ def ST_TCGN(test_sample_number):
             epoch_predict_record_val += list(predictions)
             epoch_median_pcc_val = compare_prediction_label_list(epoch_predict_record_val, epoch_real_record_val)
 
-            if stepi * 2 % log_step_freq == 0:  # 当多少个batch后打印结果
+            if stepi * 2 % log_step_freq == 0:
                 print("validation sample", test_sample)
                 print(("validation: [step = %d] loss: %.3f, " + "median pearson coefficient" + ": %.3f") %
                       (stepi, loss_val_sum / stepi, epoch_median_pcc_val))
@@ -160,7 +152,7 @@ def ST_TCGN(test_sample_number):
                 record_file.write(str(epoch) + "," + str(epoch_median_pcc_val) + "\n")
                 record_file.flush()
                 torch.save(my_model.state_dict(),
-                           "./record-" + model_name + "/"  + test_sample+"-"+ "ST_Net-" + model_name + "-best.pth")
+                           "./record-" + model_name + "/"  + test_sample+"-"+ model_name + "-best.pth")
     record_file.close()
 
 if __name__=="__main__":

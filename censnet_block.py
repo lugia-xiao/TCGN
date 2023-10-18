@@ -22,7 +22,6 @@ class GraphConvolution(nn.Module):
         self.out_features_e = out_features_e
         self.in_features_v = in_features_v
         self.out_features_v = out_features_v
-
         if node_layer:
             self.node_layer = True
             self.weight = Parameter(torch.FloatTensor(in_features_v, out_features_v))
@@ -83,15 +82,16 @@ class GraphConvolution(nn.Module):
 
 
 class GCN(nn.Module):
-    def __init__(self,nfeat_v, nfeat_e, nhid, nfeat_v_out, dropout):
+    def __init__(self,nfeat_v, nfeat_e, nhid, nfeat_v_out,dropout,topk=4):
         super(GCN, self).__init__()
         self.gc1 = GraphConvolution(nfeat_v, nhid, nfeat_e, nfeat_e, node_layer=True)
         self.gc2 = GraphConvolution(nhid, nhid, nfeat_e, nfeat_e*2, node_layer=False)
         self.gc3 = GraphConvolution(nhid, nfeat_v_out, nfeat_e*2, nfeat_e*2, node_layer=True)
         self.dropout = dropout
+        self.topk=topk
 
     def forward(self, X,graph):
-        Z, adj_e, adj_v, T,topk=process_feature(X,graph)
+        Z, adj_e, adj_v, T,topk=process_feature(X,graph,self.topk)
         if use_gpu:
             Z=Z.cuda()
             adj_e=adj_e.cuda()
@@ -204,7 +204,7 @@ def normalize(mx):
 
 def create_edge_adj_tensor(vertex_adj_all_input,flag_normalize=True):
     '''
-    :param vertex_adj_all: adjacent matrix (Batch,Num_nodes,Channel)
+    :param vertex_adj_all_input: adjacent matrix (Batch,Num_nodes,Channel)
     :param flag_normalize: Whether to normalize the edge adj matrix
     :return: edge adjacent matrix
     '''
@@ -234,8 +234,8 @@ def create_edge_adj_tensor(vertex_adj_all_input,flag_normalize=True):
         return edge_adj
 
 '''number=0'''
-def process_feature(x,graph):
-    distance_adj, edge_features,topk = build_edge_feature_tensor(x,graph,4)
+def process_feature(x,graph,topk=2):
+    distance_adj, edge_features,topk = build_edge_feature_tensor(x,graph,topk)
     '''global number
     number+=1
     np.save("connection"+str(number)+".npy",distance_adj.cpu().numpy())'''

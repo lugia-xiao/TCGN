@@ -33,10 +33,6 @@ Xiao Xiao1,2,3, Yan Kong1,2, Ronghan Li1,2, Zuoheng Wang3, Hui Lu2,1,4,*
 
 
 
-![img](data/1.png)
-
-![img](data/2.png)
-
 # Usage
 
 As a general computer vision backbone, the TCGN model can be easily used.
